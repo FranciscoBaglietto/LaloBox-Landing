@@ -25,11 +25,12 @@
         justify-content: center;
         text-align: center;
         height: 87vh;
+        max-width: 1400px;
         
 
         .nosotros__text1{
             color: white;
-            font-size: 4.5vw;
+            font-size: 4.2vw;
             text-shadow: 3px 3px 3px black;
             margin-top: 15vh;
         }
@@ -51,6 +52,52 @@
 
     }
 
+    @media only screen and (min-width: 768px) {
 
+        .nosotros__sticker{
+
+            & img{
+                top: -20vh;
+            }
+
+        }
+        .container{
+    
+            .nosotros__text1{
+                font-size: 3.5vw;
+                text-shadow: 3px 3px 3px black;
+                margin-top: 20vh;
+            }
+            .nosotros__text2{
+                font-size: 4vw;
+                text-shadow: 3px 3px 3px black;
+            }
+        }
+        
+    }
+
+    @media only screen and (min-width: 1200px){
+
+        .nosotros__sticker{
+
+            & img{
+                top: -30vh;
+            }
+
+        }
+        .container{
+            height: 89vh;
+
+            .nosotros__text1{
+                font-size: 2.5vw;
+                text-shadow: 3px 3px 3px black;
+                margin-top: 24vh;
+            }
+            .nosotros__text2{
+                font-size: 3.5vw;
+                text-shadow: 3px 3px 3px black;
+            }
+        }
+    }
 
 }

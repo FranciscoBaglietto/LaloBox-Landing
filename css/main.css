@@ -27,10 +27,11 @@ body .cabecera .container-fluid .contenedor__navbar .navbar-nav {
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 87vh; }
+    height: 87vh;
+    max-width: 1400px; }
     #nosotros .container .nosotros__text1 {
       color: white;
-      font-size: 4.5vw;
+      font-size: 4.2vw;
       text-shadow: 3px 3px 3px black;
       margin-top: 15vh; }
     #nosotros .container .nosotros__text2 {
@@ -45,3 +46,25 @@ body .cabecera .container-fluid .contenedor__navbar .navbar-nav {
       background-color: black;
       border-radius: 10px;
       margin-top: 1vh; }
+  @media only screen and (min-width: 768px) {
+    #nosotros .nosotros__sticker img {
+      top: -20vh; }
+    #nosotros .container .nosotros__text1 {
+      font-size: 3.5vw;
+      text-shadow: 3px 3px 3px black;
+      margin-top: 20vh; }
+    #nosotros .container .nosotros__text2 {
+      font-size: 4vw;
+      text-shadow: 3px 3px 3px black; } }
+  @media only screen and (min-width: 1200px) {
+    #nosotros .nosotros__sticker img {
+      top: -30vh; }
+    #nosotros .container {
+      height: 89vh; }
+      #nosotros .container .nosotros__text1 {
+        font-size: 2.5vw;
+        text-shadow: 3px 3px 3px black;
+        margin-top: 24vh; }
+      #nosotros .container .nosotros__text2 {
+        font-size: 3.5vw;
+        text-shadow: 3px 3px 3px black; } }
