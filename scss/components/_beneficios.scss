@@ -1,87 +1,99 @@
 #beneficios{
 
     .container{
+        
+        .contenedor__imagen{
 
-        .contenedor__beneficios{
+            .beneficio__img{
+                height: 21rem;
+                margin: 0vh 1vw;
+                margin-top: -.2vh;
+            }
+        }
 
-            .contenedor__mantenimiento{
-
-                .mantenimiento{
-
-                    .mantenimiento__img{
-                        width: 8.5vw;
-                        height: 7vh;
+        .beneficio__contenedor{
+            
+            .contenedor__beneficios{
+                
+                .contenedor__mantenimiento{
+                    
+                    .mantenimiento{
+                        
+                        .mantenimiento__img{
+                            width: 8.5vw;
+                            height: 7vh;
+                        }
+                        .mantenimiento__text{
+                            font-size: 2vh;
+                            margin-top: 2vh;
+                        }
+                        
                     }
-                    .mantenimiento__text{
-                        font-size: 2vh;
-                        margin-top: 2vh;
+                    .construccion{
+                        
+                        .construccion__img{
+                            width: 8.5vw;
+                            height: 7vh;
+                        }
+                        .construccion__text{
+                            font-size: 2vh;
+                            margin-top: 2vh;
+                        }
+                    }
+                    .recupero{
+                        
+                        .recupero__img{
+                            width: 8.5vw;
+                            height: 7vh;
+                        }
+                        .recupero__text{
+                            font-size: 2vh;
+                            margin-top: 2vh;
+                        }
+                    }
+                    
+                    
+                }
+                
+                .contenedor__traslado{
+                    
+                    .traslado{
+                        
+                        .traslado__img{
+                            width: 8.5vw;
+                            height: 7vh;
+                        }
+                        .traslado__text{
+                            font-size: 2vh;
+                            margin-top: 2vh;
+                        }
+                    }
+                    .garantia{
+                        
+                        .garantia__img{
+                            width: 8.5vw;
+                            height: 7vh;
+                        }
+                        .garantia__text{
+                            font-size: 2vh;
+                            margin-top: 2vh;
+                        }
+                    }
+                    .aseguramos{
+                        
+                        .aseguramos__img{
+                            width: 8.5vw;
+                            height: 7vh;
+                        }
+                        .aseguramos__text{
+                            font-size: 2vh;
+                            margin-top: 2vh;
+                        }
                     }
                     
                 }
-                .construccion{
-                    
-                    .construccion__img{
-                        width: 8.5vw;
-                        height: 7vh;
-                    }
-                    .construccion__text{
-                        font-size: 2vh;
-                        margin-top: 2vh;
-                    }
-                }
-                .recupero{
-
-                    .recupero__img{
-                        width: 8.5vw;
-                        height: 7vh;
-                    }
-                    .recupero__text{
-                        font-size: 2vh;
-                        margin-top: 2vh;
-                    }
-                }
-
-
+                
             }
-
-            .contenedor__traslado{
-
-                .traslado{
-
-                    .traslado__img{
-                        width: 8.5vw;
-                        height: 7vh;
-                    }
-                    .traslado__text{
-                        font-size: 2vh;
-                        margin-top: 2vh;
-                    }
-                }
-                .garantia{
-
-                    .garantia__img{
-                        width: 8.5vw;
-                        height: 7vh;
-                    }
-                    .garantia__text{
-                        font-size: 2vh;
-                        margin-top: 2vh;
-                    }
-                }
-                .aseguramos{
-
-                    .aseguramos__img{
-                        width: 8.5vw;
-                        height: 7vh;
-                    }
-                    .aseguramos__text{
-                        font-size: 2vh;
-                        margin-top: 2vh;
-                    }
-                }
-
-            }
-
 
 
         }

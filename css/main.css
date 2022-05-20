@@ -205,7 +205,8 @@ body .cabecera .container-fluid .contenedor__navbar .navbar-nav {
   margin: 0vh 1vw; }
 
 #proyectos .container {
-  overflow: hidden; }
+  overflow: hidden;
+  padding-bottom: 40vh; }
   #proyectos .container .contenedor__img {
     position: relative; }
     #proyectos .container .contenedor__img .proyecto__img {
@@ -225,50 +226,55 @@ body .cabecera .container-fluid .contenedor__navbar .navbar-nav {
       width: fit-content;
       margin-top: 10vh; }
 
-#beneficios .container .contenedor__beneficios .contenedor__mantenimiento .mantenimiento .mantenimiento__img {
+#beneficios .container .contenedor__imagen .beneficio__img {
+  height: 21rem;
+  margin: 0vh 1vw;
+  margin-top: -.2vh; }
+
+#beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__mantenimiento .mantenimiento .mantenimiento__img {
   width: 8.5vw;
   height: 7vh; }
 
-#beneficios .container .contenedor__beneficios .contenedor__mantenimiento .mantenimiento .mantenimiento__text {
+#beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__mantenimiento .mantenimiento .mantenimiento__text {
   font-size: 2vh;
   margin-top: 2vh; }
 
-#beneficios .container .contenedor__beneficios .contenedor__mantenimiento .construccion .construccion__img {
+#beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__mantenimiento .construccion .construccion__img {
   width: 8.5vw;
   height: 7vh; }
 
-#beneficios .container .contenedor__beneficios .contenedor__mantenimiento .construccion .construccion__text {
+#beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__mantenimiento .construccion .construccion__text {
   font-size: 2vh;
   margin-top: 2vh; }
 
-#beneficios .container .contenedor__beneficios .contenedor__mantenimiento .recupero .recupero__img {
+#beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__mantenimiento .recupero .recupero__img {
   width: 8.5vw;
   height: 7vh; }
 
-#beneficios .container .contenedor__beneficios .contenedor__mantenimiento .recupero .recupero__text {
+#beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__mantenimiento .recupero .recupero__text {
   font-size: 2vh;
   margin-top: 2vh; }
 
-#beneficios .container .contenedor__beneficios .contenedor__traslado .traslado .traslado__img {
+#beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .traslado .traslado__img {
   width: 8.5vw;
   height: 7vh; }
 
-#beneficios .container .contenedor__beneficios .contenedor__traslado .traslado .traslado__text {
+#beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .traslado .traslado__text {
   font-size: 2vh;
   margin-top: 2vh; }
 
-#beneficios .container .contenedor__beneficios .contenedor__traslado .garantia .garantia__img {
+#beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .garantia .garantia__img {
   width: 8.5vw;
   height: 7vh; }
 
-#beneficios .container .contenedor__beneficios .contenedor__traslado .garantia .garantia__text {
+#beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .garantia .garantia__text {
   font-size: 2vh;
   margin-top: 2vh; }
 
-#beneficios .container .contenedor__beneficios .contenedor__traslado .aseguramos .aseguramos__img {
+#beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .aseguramos .aseguramos__img {
   width: 8.5vw;
   height: 7vh; }
 
-#beneficios .container .contenedor__beneficios .contenedor__traslado .aseguramos .aseguramos__text {
+#beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .aseguramos .aseguramos__text {
   font-size: 2vh;
   margin-top: 2vh; }
