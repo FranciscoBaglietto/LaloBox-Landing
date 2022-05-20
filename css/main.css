@@ -82,8 +82,8 @@ body .cabecera .container-fluid .contenedor__navbar .navbar-nav {
         text-shadow: 3px 3px 3px black; } }
 
 #nosotros .container .nosotros__imagen {
-  height: 51vh;
-  margin: auto;
+  height: 21rem;
+  margin: 0vh 1vw;
   margin-top: -.2vh; }
 
 #nosotros .container .contenedor_nosotros {
@@ -102,12 +102,13 @@ body .cabecera .container-fluid .contenedor__navbar .navbar-nav {
 
 #nosotros .container .contenedor__caracteristicas {
   flex-direction: row;
-  gap: 10%; }
+  gap: 10%;
+  padding-bottom: 4vh; }
   #nosotros .container .contenedor__caracteristicas .compromiso-fabrica .compromiso {
     align-items: center; }
     #nosotros .container .contenedor__caracteristicas .compromiso-fabrica .compromiso .compromiso__img {
-      width: 8.5vw;
-      height: 7vh; }
+      width: 8vw;
+      height: 7.3vh; }
     #nosotros .container .contenedor__caracteristicas .compromiso-fabrica .compromiso .compromiso__text {
       font-size: 2vh;
       margin-top: 2vh; }
@@ -129,3 +130,30 @@ body .cabecera .container-fluid .contenedor__navbar .navbar-nav {
   #nosotros .container .contenedor__caracteristicas .entrega .entrega__text {
     font-size: 2vh;
     margin-top: 2vh; }
+
+#modelos {
+  background-color: black; }
+  #modelos .container {
+    margin-right: 0px; }
+    #modelos .container .contenedor__modelos .modelos__titulo {
+      font-size: 4vh;
+      margin-top: 4vh;
+      border-bottom: 2px solid white;
+      border-radius: 1px;
+      width: fit-content;
+      color: white; }
+    #modelos .container .contenedor__modelos .modelos__text1 {
+      font-size: 3vh;
+      margin-top: 4vh;
+      margin-bottom: 0vh;
+      color: white; }
+    #modelos .container .contenedor__modelos .modelos__text2 {
+      font-size: 2vh;
+      color: white; }
+    #modelos .container .contenedor__modelos .modelos__text3 {
+      font-size: 2vh;
+      color: white; }
+    #modelos .container .contenedor__carrousel .contenedor__rayas .img__rayas {
+      width: 200px; }
+    #modelos .container .contenedor__carrousel .carousel {
+      margin-left: 4vw; }

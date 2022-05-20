@@ -3,8 +3,8 @@
     .container{
 
         .nosotros__imagen{
-            height: 51vh;
-            margin: auto;
+            height: 21rem;
+            margin: 0vh 1vw;
             margin-top: -.2vh;
             
             
@@ -31,6 +31,7 @@
         .contenedor__caracteristicas{
             flex-direction: row;
             gap: 10%;
+            padding-bottom: 4vh;
             
 
             .compromiso-fabrica{
@@ -39,8 +40,8 @@
                     align-items: center;
 
                     .compromiso__img{
-                        width: 8.5vw;
-                        height: 7vh;
+                        width: 8vw;
+                        height: 7.3vh;
                     }
                     .compromiso__text{
                         font-size: 2vh;

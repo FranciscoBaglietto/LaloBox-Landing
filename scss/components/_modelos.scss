@@ -1,0 +1,49 @@
+#modelos{
+    background-color: black;
+
+    .container{
+        margin-right: 0px;
+        .contenedor__modelos{
+
+            .modelos__titulo{
+                font-size: 4vh;
+                margin-top: 4vh;
+                border-bottom: 2px solid white;
+                border-radius: 1px;
+                width: fit-content;
+                color: white;
+            }
+            .modelos__text1{
+                font-size: 3vh;
+                margin-top: 4vh;
+                margin-bottom: 0vh;
+                color: white;
+            }
+            .modelos__text2{
+                font-size: 2vh;
+                color: white;
+            }
+            .modelos__text3{
+                font-size: 2vh;
+                color: white;
+            }
+        
+        }
+        .contenedor__carrousel{
+            .contenedor__rayas{
+                .img__rayas{
+                    width: 200px;
+                }
+                
+            }
+
+            .carousel{
+                margin-left: 4vw;
+                
+            }
+        }
+
+
+
+    }
+}
