@@ -21,19 +21,19 @@ body .cabecera .container-fluid .contenedor__navbar .navbar-nav {
       margin-left: 2rem;
       margin-bottom: 1rem; } }
 
-#nosotros {
+#home {
   background-image: radial-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./../imagen/imageninicio2.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden; }
-  #nosotros .nosotros__sticker {
+  #home .home__sticker {
     position: relative; }
-    #nosotros .nosotros__sticker img {
+    #home .home__sticker img {
       width: 30vw;
       position: absolute;
       top: -8vh; }
-  #nosotros .container {
+  #home .container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,16 +41,16 @@ body .cabecera .container-fluid .contenedor__navbar .navbar-nav {
     text-align: center;
     height: 87vh;
     max-width: 1400px; }
-    #nosotros .container .nosotros__text1 {
+    #home .container .home__text1 {
       color: white;
       font-size: 4.2vw;
       text-shadow: 3px 3px 3px black;
       margin-top: 15vh; }
-    #nosotros .container .nosotros__text2 {
+    #home .container .home__text2 {
       color: white;
       font-size: 4.5vw;
       text-shadow: 3px 3px 3px black; }
-    #nosotros .container .nosotros__boton {
+    #home .container .home__boton {
       text-decoration: none;
       color: white;
       padding: 5px 15px;
@@ -59,24 +59,73 @@ body .cabecera .container-fluid .contenedor__navbar .navbar-nav {
       border-radius: 10px;
       margin-top: 1vh; }
   @media only screen and (min-width: 768px) {
-    #nosotros .nosotros__sticker img {
+    #home .home__sticker img {
       top: -20vh; }
-    #nosotros .container .nosotros__text1 {
+    #home .container .home__text1 {
       font-size: 3.5vw;
       text-shadow: 3px 3px 3px black;
       margin-top: 20vh; }
-    #nosotros .container .nosotros__text2 {
+    #home .container .home__text2 {
       font-size: 4vw;
       text-shadow: 3px 3px 3px black; } }
   @media only screen and (min-width: 1200px) {
-    #nosotros .nosotros__sticker img {
+    #home .home__sticker img {
       top: -30vh; }
-    #nosotros .container {
+    #home .container {
       height: 89vh; }
-      #nosotros .container .nosotros__text1 {
+      #home .container .home__text1 {
         font-size: 2.5vw;
         text-shadow: 3px 3px 3px black;
         margin-top: 24vh; }
-      #nosotros .container .nosotros__text2 {
+      #home .container .home__text2 {
         font-size: 3.5vw;
         text-shadow: 3px 3px 3px black; } }
+
+#nosotros .container .nosotros__imagen {
+  height: 51vh;
+  margin: auto;
+  margin-top: -.2vh; }
+
+#nosotros .container .contenedor_nosotros {
+  display: flex;
+  flex-direction: column; }
+  #nosotros .container .contenedor_nosotros .nosotros_titulo {
+    font-size: 4vh;
+    margin-top: 4vh;
+    border-bottom: 2px solid black;
+    border-radius: 1px;
+    width: fit-content; }
+  #nosotros .container .contenedor_nosotros .nosotros__texto {
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    font-size: 2vh; }
+
+#nosotros .container .contenedor__caracteristicas {
+  flex-direction: row;
+  gap: 10%; }
+  #nosotros .container .contenedor__caracteristicas .compromiso-fabrica .compromiso {
+    align-items: center; }
+    #nosotros .container .contenedor__caracteristicas .compromiso-fabrica .compromiso .compromiso__img {
+      width: 8.5vw;
+      height: 7vh; }
+    #nosotros .container .contenedor__caracteristicas .compromiso-fabrica .compromiso .compromiso__text {
+      font-size: 2vh;
+      margin-top: 2vh; }
+  #nosotros .container .contenedor__caracteristicas .compromiso-fabrica .fabrica .fabrica__img {
+    width: 8.5vw;
+    height: 7vh; }
+  #nosotros .container .contenedor__caracteristicas .compromiso-fabrica .fabrica .fabrica__text {
+    font-size: 2vh;
+    margin-top: 2vh; }
+  #nosotros .container .contenedor__caracteristicas .calidad-entrega .calidad__img {
+    width: 8.5vw;
+    height: 7vh; }
+  #nosotros .container .contenedor__caracteristicas .calidad-entrega .calidad__text {
+    font-size: 2vh;
+    margin-top: 2vh; }
+  #nosotros .container .contenedor__caracteristicas .entrega .entrega__img {
+    width: 8.5vw;
+    height: 7vh; }
+  #nosotros .container .contenedor__caracteristicas .entrega .entrega__text {
+    font-size: 2vh;
+    margin-top: 2vh; }
