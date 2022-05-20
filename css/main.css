@@ -203,3 +203,24 @@ body .cabecera .container-fluid .contenedor__navbar .navbar-nav {
 #viviendas .container .contenedor__imagen .viviendas__imagen {
   height: 19rem;
   margin: 0vh 1vw; }
+
+#proyectos .container {
+  overflow: hidden; }
+  #proyectos .container .contenedor__img {
+    position: relative; }
+    #proyectos .container .contenedor__img .proyecto__img {
+      width: 30vw;
+      position: absolute;
+      top: -8vh; }
+  #proyectos .container .contenedor__proyecto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
+    #proyectos .container .contenedor__proyecto .proyecto__titulo {
+      font-size: 3vh;
+      margin-top: 4vh;
+      border-bottom: 2px solid black;
+      border-radius: 1px;
+      width: fit-content;
+      margin-top: 10vh; }
