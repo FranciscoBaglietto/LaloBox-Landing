@@ -1,0 +1,74 @@
+#viviendas{
+    .container{
+
+        .contenedor__viviendas{
+
+            .viviendas__titulo{
+                font-size: 3vh;
+                margin-top: 4vh;
+                border-bottom: 2px solid black;
+                border-radius: 1px;
+                width: fit-content;
+            }
+            .vivienda__text1{
+                font-size: 3vh;
+                margin-top: 8vh;
+                margin-bottom: 0px;
+
+            }
+            .vivienda__text2{
+                font-size: 2vh;
+            }
+            .vivienda__text3{
+                font-size: 2vh;
+            }
+
+        }
+
+        .contenedor__metros{
+            
+            .img__tick{
+                width: 60px;
+            }
+            .metros__text{
+                font-size: 2.5vh;
+                margin-bottom: 0px;
+                margin-top: 2.1vh;
+            }
+
+        }
+        .contenedor__equipado{
+
+            .img__equipado{
+                width: 60px;
+            }
+            .equipado__text{
+                font-size: 2.5vh;
+                margin-bottom: 0px;
+                margin-top: 2.1vh;
+            }
+
+        }
+        .contenedor__financiado{
+            
+            .img__financiado{
+                width: 60px;
+            }
+            .financiado__text{
+                font-size: 2.5vh;
+                margin-bottom: 0px;
+                margin-top: 2.1vh;
+            }
+
+        }
+        .contenedor__imagen{
+
+            .viviendas__imagen{
+                height: 19rem;
+                margin: 0vh 1vw;
+
+            }
+        }
+
+    }
+}

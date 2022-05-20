@@ -156,4 +156,50 @@ body .cabecera .container-fluid .contenedor__navbar .navbar-nav {
     #modelos .container .contenedor__carrousel .contenedor__rayas .img__rayas {
       width: 200px; }
     #modelos .container .contenedor__carrousel .carousel {
-      margin-left: 4vw; }
+      margin-left: 4v; }
+
+#viviendas .container .contenedor__viviendas .viviendas__titulo {
+  font-size: 3vh;
+  margin-top: 4vh;
+  border-bottom: 2px solid black;
+  border-radius: 1px;
+  width: fit-content; }
+
+#viviendas .container .contenedor__viviendas .vivienda__text1 {
+  font-size: 3vh;
+  margin-top: 8vh;
+  margin-bottom: 0px; }
+
+#viviendas .container .contenedor__viviendas .vivienda__text2 {
+  font-size: 2vh; }
+
+#viviendas .container .contenedor__viviendas .vivienda__text3 {
+  font-size: 2vh; }
+
+#viviendas .container .contenedor__metros .img__tick {
+  width: 60px; }
+
+#viviendas .container .contenedor__metros .metros__text {
+  font-size: 2.5vh;
+  margin-bottom: 0px;
+  margin-top: 2.1vh; }
+
+#viviendas .container .contenedor__equipado .img__equipado {
+  width: 60px; }
+
+#viviendas .container .contenedor__equipado .equipado__text {
+  font-size: 2.5vh;
+  margin-bottom: 0px;
+  margin-top: 2.1vh; }
+
+#viviendas .container .contenedor__financiado .img__financiado {
+  width: 60px; }
+
+#viviendas .container .contenedor__financiado .financiado__text {
+  font-size: 2.5vh;
+  margin-bottom: 0px;
+  margin-top: 2.1vh; }
+
+#viviendas .container .contenedor__imagen .viviendas__imagen {
+  height: 19rem;
+  margin: 0vh 1vw; }
