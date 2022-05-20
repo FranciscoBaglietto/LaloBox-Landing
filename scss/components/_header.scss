@@ -7,7 +7,7 @@ body{
             .navbar-brand{
                 
                 .cabecera__logo{
-                    width: 70px;
+                    width: 80px;
                     margin-bottom: 1rem;
                     margin-left: .5rem;
                     margin-top: .7rem;
@@ -33,6 +33,28 @@ body{
             }
         }
 
+    }
+    @media only screen and (min-width: 1200px){
+
+        .cabecera{
+
+            .navbar{
+
+                .container-fluid{
+                    margin-right: 3rem;
+
+                    .cabecera__logo{
+                        margin-top: 1rem;
+                        margin-left: 2rem;
+                        margin-bottom: 1rem;
+                    }
+
+
+                }
+
+            }
+
+        }
     }
  
 }

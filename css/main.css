@@ -1,5 +1,9 @@
+* {
+  margin: 0;
+  padding: 0; }
+
 body .cabecera .container-fluid .navbar-brand .cabecera__logo {
-  width: 70px;
+  width: 80px;
   margin-bottom: 1rem;
   margin-left: .5rem;
   margin-top: .7rem; }
@@ -8,6 +12,14 @@ body .cabecera .container-fluid .contenedor__navbar .navbar-nav {
   margin-left: .5rem; }
   body .cabecera .container-fluid .contenedor__navbar .navbar-nav .nav-item .nav-link {
     color: white; }
+
+@media only screen and (min-width: 1200px) {
+  body .cabecera .navbar .container-fluid {
+    margin-right: 3rem; }
+    body .cabecera .navbar .container-fluid .cabecera__logo {
+      margin-top: 1rem;
+      margin-left: 2rem;
+      margin-bottom: 1rem; } }
 
 #nosotros {
   background-image: radial-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./../imagen/imageninicio2.jpg);
