@@ -21,7 +21,7 @@
 
 @font-face {
   font-family: museosans_900;
-  src: url("../tipografias/MuseoSans.otf"); }
+  src: url("./../tipografias/MuseoSans_1.otf"); }
 
 @font-face {
   font-family: museosans-700italic;
@@ -124,58 +124,73 @@ body .cabecera .container-fluid .contenedor__navbar .navbar-nav {
   display: flex;
   flex-direction: column; }
   #nosotros .container .contenedor_nosotros .nosotros_titulo {
-    font-size: 4vh;
+    font-size: 6vw;
+    font-weight: bolder;
     margin-top: 4vh;
-    border-bottom: 2px solid black;
+    margin-left: 3vw;
+    border-bottom: 2px solid #FECF07;
     border-radius: 1px;
-    width: fit-content; }
+    width: fit-content;
+    font-family: museosans_900;
+    color: #FECF07; }
   #nosotros .container .contenedor_nosotros .nosotros__texto {
-    margin-top: 5vh;
+    margin-top: 6vh;
     margin-bottom: 2vh;
-    font-size: 2vh; }
+    font-size: 3.5vw;
+    font-family: museosans_100;
+    margin-left: 3vw; }
 
 #nosotros .container .contenedor__caracteristicas {
   flex-direction: row;
-  gap: 10%;
-  padding-bottom: 4vh; }
+  gap: 5%;
+  padding-bottom: 6vh;
+  margin-left: 2vw; }
   #nosotros .container .contenedor__caracteristicas .compromiso-fabrica .compromiso {
     align-items: center; }
     #nosotros .container .contenedor__caracteristicas .compromiso-fabrica .compromiso .compromiso__img {
-      width: 8vw;
-      height: 7.3vh; }
+      width: 2.3rem;
+      height: 2.3rem; }
     #nosotros .container .contenedor__caracteristicas .compromiso-fabrica .compromiso .compromiso__text {
-      font-size: 2vh;
-      margin-top: 2vh; }
+      font-size: 4vw;
+      margin-top: 2.5vh;
+      font-size: museosans-500; }
   #nosotros .container .contenedor__caracteristicas .compromiso-fabrica .fabrica .fabrica__img {
-    width: 8.5vw;
-    height: 7vh; }
+    width: 2.3rem;
+    height: 2.3rem; }
   #nosotros .container .contenedor__caracteristicas .compromiso-fabrica .fabrica .fabrica__text {
-    font-size: 2vh;
-    margin-top: 2vh; }
+    font-size: 4vw;
+    margin-top: 1.5vh;
+    font-size: museosans-500; }
   #nosotros .container .contenedor__caracteristicas .calidad-entrega .calidad__img {
-    width: 8.5vw;
-    height: 7vh; }
+    width: 2.3rem;
+    height: 2.3rem;
+    margin-top: 1vh; }
   #nosotros .container .contenedor__caracteristicas .calidad-entrega .calidad__text {
-    font-size: 2vh;
-    margin-top: 2vh; }
+    font-size: 4vw;
+    margin-top: 2.3vh;
+    font-size: museosans-500; }
   #nosotros .container .contenedor__caracteristicas .entrega .entrega__img {
-    width: 8.5vw;
-    height: 7vh; }
+    width: 2.3rem;
+    height: 2.3rem; }
   #nosotros .container .contenedor__caracteristicas .entrega .entrega__text {
-    font-size: 2vh;
-    margin-top: 2vh; }
+    font-size: 4vw;
+    margin-top: 1.5vh;
+    font-size: museosans-500; }
 
 #modelos {
   background-color: black; }
   #modelos .container {
     margin-right: 0px; }
     #modelos .container .contenedor__modelos .modelos__titulo {
-      font-size: 4vh;
+      font-size: 6vw;
+      font-weight: bolder;
       margin-top: 4vh;
-      border-bottom: 2px solid white;
+      margin-left: 3vw;
+      border-bottom: 2px solid #FECF07;
       border-radius: 1px;
       width: fit-content;
-      color: white; }
+      font-family: museosans_900;
+      color: #FECF07; }
     #modelos .container .contenedor__modelos .modelos__text1 {
       font-size: 3vh;
       margin-top: 4vh;
@@ -194,11 +209,15 @@ body .cabecera .container-fluid .contenedor__navbar .navbar-nav {
       width: 100%; }
 
 #viviendas .container .contenedor__viviendas .viviendas__titulo {
-  font-size: 3vh;
+  font-size: 6vw;
+  font-weight: bolder;
   margin-top: 4vh;
-  border-bottom: 2px solid black;
+  margin-left: 3vw;
+  border-bottom: 2px solid #FECF07;
   border-radius: 1px;
-  width: fit-content; }
+  width: fit-content;
+  font-family: museosans_900;
+  color: #FECF07; }
 
 #viviendas .container .contenedor__viviendas .vivienda__text1 {
   font-size: 3vh;
@@ -254,12 +273,15 @@ body .cabecera .container-fluid .contenedor__navbar .navbar-nav {
     align-items: center;
     text-align: center; }
     #proyectos .container .contenedor__proyecto .proyecto__titulo {
-      font-size: 3vh;
+      font-size: 6vw;
+      font-weight: bolder;
       margin-top: 4vh;
-      border-bottom: 2px solid black;
+      margin-left: 3vw;
+      border-bottom: 2px solid #FECF07;
       border-radius: 1px;
       width: fit-content;
-      margin-top: 10vh; }
+      font-family: museosans_900;
+      color: #FECF07; }
 
 #beneficios .container .contenedor__imagen .beneficio__img {
   width: 100%;

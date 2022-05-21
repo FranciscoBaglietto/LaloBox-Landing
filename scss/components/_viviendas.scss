@@ -4,11 +4,15 @@
         .contenedor__viviendas{
 
             .viviendas__titulo{
-                font-size: 3vh;
+                font-size: 6vw;
+                font-weight: bolder;
                 margin-top: 4vh;
-                border-bottom: 2px solid black;
+                margin-left: 3vw;
+                border-bottom: 2px solid #FECF07;
                 border-radius: 1px;
                 width: fit-content;
+                font-family: museosans_900;
+                color: #FECF07;
             }
             .vivienda__text1{
                 font-size: 3vh;

@@ -6,12 +6,15 @@
         .contenedor__modelos{
 
             .modelos__titulo{
-                font-size: 4vh;
+                font-size: 6vw;
+                font-weight: bolder;
                 margin-top: 4vh;
-                border-bottom: 2px solid white;
+                margin-left: 3vw;
+                border-bottom: 2px solid #FECF07;
                 border-radius: 1px;
                 width: fit-content;
-                color: white;
+                font-family: museosans_900;
+                color: #FECF07;
             }
             .modelos__text1{
                 font-size: 3vh;

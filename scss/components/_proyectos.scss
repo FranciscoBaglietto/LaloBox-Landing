@@ -21,12 +21,15 @@
             text-align: center;
 
             .proyecto__titulo{
-                font-size: 3vh;
+                font-size: 6vw;
+                font-weight: bolder;
                 margin-top: 4vh;
-                border-bottom: 2px solid black;
+                margin-left: 3vw;
+                border-bottom: 2px solid #FECF07;
                 border-radius: 1px;
                 width: fit-content;
-                margin-top: 10vh;
+                font-family: museosans_900;
+                color: #FECF07;
             }
         }
 

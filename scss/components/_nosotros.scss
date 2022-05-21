@@ -14,50 +14,59 @@
             flex-direction: column;
 
             .nosotros_titulo{
-                font-size: 4vh;
+                font-size: 6vw;
+                font-weight: bolder;
                 margin-top: 4vh;
-                border-bottom: 2px solid black;
+                margin-left: 3vw;
+                border-bottom: 2px solid #FECF07;
                 border-radius: 1px;
                 width: fit-content;
+                font-family: museosans_900;
+                color: #FECF07;
             }
             .nosotros__texto{
-                margin-top: 5vh;
+                margin-top: 6vh;
                 margin-bottom: 2vh;
-                font-size: 2vh;
+                font-size: 3.5vw;
+                font-family: museosans_100;
+                margin-left: 3vw;
                 
             }
 
         }
+
         .contenedor__caracteristicas{
             flex-direction: row;
-            gap: 10%;
-            padding-bottom: 4vh;
+            gap: 5%;
+            padding-bottom: 6vh;
+            margin-left: 2vw;
             
-
             .compromiso-fabrica{
                 
                 .compromiso{
                     align-items: center;
 
                     .compromiso__img{
-                        width: 8vw;
-                        height: 7.3vh;
+                        width: 2.3rem;
+                        height: 2.3rem;
                     }
                     .compromiso__text{
-                        font-size: 2vh;
-                        margin-top: 2vh;
+                        font-size: 4vw;
+                        margin-top: 2.5vh;
+                        font-size: museosans-500;
                     }
                     
                 }
                 .fabrica{
 
                     .fabrica__img{
-                        width: 8.5vw;
-                        height: 7vh;
+                        width: 2.3rem;
+                        height: 2.3rem;
                     }
                     .fabrica__text{
-                        font-size: 2vh;
-                        margin-top: 2vh;
+                        font-size: 4vw;
+                        margin-top: 1.5vh;
+                        font-size: museosans-500;
                     }
 
                 }
@@ -66,23 +75,26 @@
             .calidad-entrega {
 
                 .calidad__img{
-                    width: 8.5vw;
-                    height: 7vh;
+                    width: 2.3rem;
+                    height: 2.3rem;
+                    margin-top: 1vh;
                 }
                 .calidad__text{
-                    font-size: 2vh;
-                    margin-top: 2vh;
+                    font-size: 4vw;
+                    margin-top: 2.3vh;
+                    font-size: museosans-500;
                 }
 
             }
             .entrega{
                 .entrega__img{
-                    width: 8.5vw;
-                    height: 7vh;
+                    width: 2.3rem;
+                    height: 2.3rem;
                 }
                 .entrega__text{
-                    font-size: 2vh;
-                    margin-top: 2vh;
+                    font-size: 4vw;
+                    margin-top: 1.5vh;
+                    font-size: museosans-500;
                 }
 
             }
