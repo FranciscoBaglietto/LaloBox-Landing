@@ -1,5 +1,5 @@
 #nosotros{
-
+    background-color: #F6F6F6;
     .container{
 
         .nosotros__imagen{
@@ -7,16 +7,18 @@
             margin: 0 3vw;
             margin-top: -.2vh;
             
-            
         }
+        
         .contenedor_nosotros{
             display: flex;
             flex-direction: column;
+            
 
             .nosotros_titulo{
                 font-size: 6vw;
                 font-weight: bolder;
-                margin-top: 4vh;
+                margin-top: 6vh;
+                margin-bottom: 2vh;
                 margin-left: 3vw;
                 border-bottom: 2px solid #FECF07;
                 border-radius: 1px;
