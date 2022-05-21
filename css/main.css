@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: museosans-300;
-  src: url("../tipografias/MuseoSans-300.otf"); }
+  src: url("./../tipografias/MuseoSans-300.otf"); }
 
 @font-face {
   font-family: jersey_m54;
@@ -25,11 +25,11 @@
 
 @font-face {
   font-family: museosans-700italic;
-  src: url("../../tipografias/MuseoSans-700Italic.otf"); }
+  src: url("./../tipografias/MuseoSans-700Italic.otf"); }
 
 @font-face {
   font-family: museosans-500;
-  src: url("../../tipografias/MuseoSans_1.otf"); }
+  src: url("./../tipografias/MuseoSans_1.otf"); }
 
 body .cabecera .container-fluid .navbar-brand .cabecera__logo {
   width: 80px;
@@ -128,7 +128,7 @@ body .cabecera .container-fluid .contenedor__navbar .navbar-nav {
       font-size: 6vw;
       font-weight: bolder;
       margin-top: 6vh;
-      margin-bottom: 5vh;
+      margin-bottom: 2vh;
       margin-left: 3vw;
       border-bottom: 2px solid #FECF07;
       border-radius: 1px;
@@ -218,80 +218,96 @@ body .cabecera .container-fluid .contenedor__navbar .navbar-nav {
       margin: 0 3vw;
       width: 100%; }
 
-#viviendas .container .contenedor__viviendas .viviendas__titulo {
-  font-size: 6vw;
-  font-weight: bolder;
-  margin-top: 4vh;
-  margin-left: 3vw;
-  border-bottom: 2px solid #FECF07;
-  border-radius: 1px;
-  width: fit-content;
-  font-family: museosans_900;
-  color: #FECF07; }
+#viviendas {
+  background-color: #F6F6F6; }
+  #viviendas .container .contenedor__viviendas .viviendas__titulo {
+    font-size: 6vw;
+    font-weight: bolder;
+    margin-top: 5vh;
+    margin-left: 3vw;
+    border-bottom: 2px solid #FECF07;
+    border-radius: 1px;
+    width: fit-content;
+    font-family: museosans_900;
+    color: #FECF07; }
+  #viviendas .container .contenedor__viviendas .vivienda__text1 {
+    font-size: 8.5vw;
+    margin-top: 8vh;
+    margin-bottom: 0vh;
+    color: black;
+    font-family: jersey_m54;
+    margin-left: 3vw; }
+  #viviendas .container .contenedor__viviendas .vivienda__text2 {
+    font-size: 7vw;
+    color: black;
+    margin-left: 3vw;
+    font-family: museosans-700italic; }
+  #viviendas .container .contenedor__viviendas .vivienda__text3 {
+    font-size: 4.3vw;
+    color: black;
+    margin-left: 3vw;
+    font-family: museosans_100;
+    margin-top: 5vh; }
+  #viviendas .container .contenedor__metros .img__tick {
+    width: 3rem;
+    height: 3rem; }
+  #viviendas .container .contenedor__metros .metros__text {
+    font-size: 4vw;
+    margin-top: 2vh;
+    font-size: museosans-500;
+    font-weight: bold; }
+  #viviendas .container .contenedor__equipado .img__equipado {
+    width: 3rem;
+    height: 3rem; }
+  #viviendas .container .contenedor__equipado .equipado__text {
+    font-size: 4vw;
+    margin-top: 2vh;
+    font-size: museosans-500;
+    font-weight: bold; }
+  #viviendas .container .contenedor__financiado {
+    margin-bottom: 3vh; }
+    #viviendas .container .contenedor__financiado .img__financiado {
+      width: 3rem;
+      height: 3rem; }
+    #viviendas .container .contenedor__financiado .financiado__text {
+      font-size: 4vw;
+      margin-top: 2vh;
+      font-size: museosans-500;
+      font-weight: bold; }
+  #viviendas .container .contenedor__imagen .viviendas__imagen {
+    width: 105%;
+    margin: 0vh 1vw; }
 
-#viviendas .container .contenedor__viviendas .vivienda__text1 {
-  font-size: 3vh;
-  margin-top: 8vh;
-  margin-bottom: 0px; }
-
-#viviendas .container .contenedor__viviendas .vivienda__text2 {
-  font-size: 2vh; }
-
-#viviendas .container .contenedor__viviendas .vivienda__text3 {
-  font-size: 2vh; }
-
-#viviendas .container .contenedor__metros .img__tick {
-  width: 60px; }
-
-#viviendas .container .contenedor__metros .metros__text {
-  font-size: 2.5vh;
-  margin-bottom: 0px;
-  margin-top: 2.1vh; }
-
-#viviendas .container .contenedor__equipado .img__equipado {
-  width: 60px; }
-
-#viviendas .container .contenedor__equipado .equipado__text {
-  font-size: 2.5vh;
-  margin-bottom: 0px;
-  margin-top: 2.1vh; }
-
-#viviendas .container .contenedor__financiado .img__financiado {
-  width: 60px; }
-
-#viviendas .container .contenedor__financiado .financiado__text {
-  font-size: 2.5vh;
-  margin-bottom: 0px;
-  margin-top: 2.1vh; }
-
-#viviendas .container .contenedor__imagen .viviendas__imagen {
-  width: 105%;
-  margin: 0vh 1vw; }
-
-#proyectos .container {
-  overflow: hidden;
-  padding-bottom: 40vh; }
-  #proyectos .container .contenedor__img {
-    position: relative; }
-    #proyectos .container .contenedor__img .proyecto__img {
-      width: 30vw;
-      position: absolute;
-      top: -8vh; }
-  #proyectos .container .contenedor__proyecto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center; }
-    #proyectos .container .contenedor__proyecto .proyecto__titulo {
-      font-size: 6vw;
-      font-weight: bolder;
-      margin-top: 4vh;
-      margin-left: 3vw;
-      border-bottom: 2px solid #FECF07;
-      border-radius: 1px;
-      width: fit-content;
-      font-family: museosans_900;
-      color: #FECF07; }
+#proyectos {
+  background-color: black; }
+  #proyectos .container {
+    overflow: hidden;
+    padding-bottom: 40vh; }
+    #proyectos .container .contenedor__img {
+      position: relative; }
+      #proyectos .container .contenedor__img .proyecto__img {
+        width: 30vw;
+        position: absolute;
+        top: -8vh; }
+    #proyectos .container .contenedor__proyecto {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin-top: 5vh; }
+      #proyectos .container .contenedor__proyecto .proyecto__titulo {
+        font-size: 6vw;
+        font-weight: bolder;
+        margin-top: 4vh;
+        margin-left: 3vw;
+        border-bottom: 2px solid #FECF07;
+        border-radius: 1px;
+        width: fit-content;
+        font-family: museosans_900;
+        color: #FECF07; }
+      #proyectos .container .contenedor__proyecto .proyecto__text {
+        font-family: museosans-300;
+        color: #F6F6F6; }
 
 #beneficios .container .contenedor__imagen .beneficio__img {
   width: 100%;

@@ -1,4 +1,5 @@
 #viviendas{
+    background-color: #F6F6F6;
     .container{
 
         .contenedor__viviendas{
@@ -6,7 +7,7 @@
             .viviendas__titulo{
                 font-size: 6vw;
                 font-weight: bolder;
-                margin-top: 4vh;
+                margin-top: 5vh;
                 margin-left: 3vw;
                 border-bottom: 2px solid #FECF07;
                 border-radius: 1px;
@@ -15,16 +16,26 @@
                 color: #FECF07;
             }
             .vivienda__text1{
-                font-size: 3vh;
+                font-size: 8.5vw;
                 margin-top: 8vh;
-                margin-bottom: 0px;
+                margin-bottom: 0vh;
+                color: black;
+                font-family: jersey_m54;
+                margin-left: 3vw;
 
             }
             .vivienda__text2{
-                font-size: 2vh;
+                font-size: 7vw;
+                color: black;
+                margin-left: 3vw;
+                font-family:  museosans-700italic;
             }
             .vivienda__text3{
-                font-size: 2vh;
+                font-size: 4.3vw;
+                color: black;
+                margin-left: 3vw;
+                font-family: museosans_100;
+                margin-top: 5vh;
             }
 
         }
@@ -32,36 +43,42 @@
         .contenedor__metros{
             
             .img__tick{
-                width: 60px;
+                width: 3rem;
+                height: 3rem;
             }
             .metros__text{
-                font-size: 2.5vh;
-                margin-bottom: 0px;
-                margin-top: 2.1vh;
+                font-size: 4vw;
+                margin-top: 2vh;
+                font-size: museosans-500;
+                font-weight: bold;
             }
 
         }
         .contenedor__equipado{
 
             .img__equipado{
-                width: 60px;
+                width: 3rem;
+                height: 3rem;
             }
             .equipado__text{
-                font-size: 2.5vh;
-                margin-bottom: 0px;
-                margin-top: 2.1vh;
+                font-size: 4vw;
+                margin-top: 2vh;
+                font-size: museosans-500;
+                font-weight: bold;
             }
 
         }
         .contenedor__financiado{
-            
+            margin-bottom: 3vh;
             .img__financiado{
-                width: 60px;
+                width: 3rem;
+                height: 3rem;
             }
             .financiado__text{
-                font-size: 2.5vh;
-                margin-bottom: 0px;
-                margin-top: 2.1vh;
+                font-size: 4vw;
+                margin-top: 2vh;
+                font-size: museosans-500;
+                font-weight: bold;
             }
 
         }

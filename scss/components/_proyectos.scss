@@ -1,4 +1,5 @@
 #proyectos{
+    background-color: black;
 
     .container{
         overflow: hidden;
@@ -19,6 +20,7 @@
             flex-direction: column;
             align-items: center;
             text-align: center;
+            margin-top: 5vh;
 
             .proyecto__titulo{
                 font-size: 6vw;
@@ -30,6 +32,10 @@
                 width: fit-content;
                 font-family: museosans_900;
                 color: #FECF07;
+            }
+            .proyecto__text{
+                font-family: museosans-300;
+                color: #F6F6F6;
             }
         }
 
