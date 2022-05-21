@@ -128,7 +128,7 @@ body .cabecera .container-fluid .contenedor__navbar .navbar-nav {
       font-size: 6vw;
       font-weight: bolder;
       margin-top: 6vh;
-      margin-bottom: 2vh;
+      margin-bottom: 5vh;
       margin-left: 3vw;
       border-bottom: 2px solid #FECF07;
       border-radius: 1px;
@@ -138,9 +138,10 @@ body .cabecera .container-fluid .contenedor__navbar .navbar-nav {
     #nosotros .container .contenedor_nosotros .nosotros__texto {
       margin-top: 6vh;
       margin-bottom: 2vh;
-      font-size: 3.5vw;
+      font-size: 3.83vw;
       font-family: museosans_100;
-      margin-left: 3vw; }
+      margin-left: 3vw;
+      padding-bottom: 3vh; }
   #nosotros .container .contenedor__caracteristicas {
     flex-direction: row;
     gap: 5%;
@@ -194,7 +195,7 @@ body .cabecera .container-fluid .contenedor__navbar .navbar-nav {
       font-family: museosans_900;
       color: #FECF07; }
     #modelos .container .contenedor__modelos .modelos__text1 {
-      font-size: 8.5vw;
+      font-size: 9vw;
       margin-top: 8vh;
       margin-bottom: 0vh;
       color: #F6F6F6;
@@ -206,7 +207,7 @@ body .cabecera .container-fluid .contenedor__navbar .navbar-nav {
       margin-left: 3vw;
       font-family: museosans-700italic; }
     #modelos .container .contenedor__modelos .modelos__text3 {
-      font-size: 4vw;
+      font-size: 4.5vw;
       color: #F6F6F6;
       margin-left: 3vw;
       font-family: museosans_100;
