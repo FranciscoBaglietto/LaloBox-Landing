@@ -11,7 +11,7 @@
             .proyecto__img{
                 width: 30vw;
                 position: absolute;
-                top: -8vh;
+                top: -20vh;
             }
         }
 
@@ -23,7 +23,7 @@
             margin-top: 5vh;
 
             .proyecto__titulo{
-                font-size: 6vw;
+                font-size: 4vw;
                 font-weight: bolder;
                 margin-top: 4vh;
                 margin-left: 3vw;
@@ -36,45 +36,10 @@
             .proyecto__text{
                 font-family: museosans-300;
                 color: #F6F6F6;
-            }
-        }
-        @media only screen and (min-width: 1200px){
-            .container{
-                padding-bottom: 65vh;
-    
-                .contenedor__img{
-    
-                    
-                    .proyecto__img{
-                        width: 30vw;
-                        position: absolute;
-                        top: -30vh;
-                    }
-    
-                }
-        
-                .contenedor__proyecto{
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    text-align: center;
-                    margin-top: 5vh;
-        
-                    .proyecto__titulo{
-                        font-size: 2vw;
-                        margin-bottom: 2vh;
-                    }
-                    .proyecto__text{
-                        font-size: 4vh;
-                    }
-                }
-        
-        
-        
+     
             }
         }
 
+    } 
 
-
-    }
 }
