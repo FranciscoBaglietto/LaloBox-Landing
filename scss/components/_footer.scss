@@ -1,0 +1,383 @@
+#footer{
+    background-color: black;
+    padding-top: 1vh;
+
+    .container{
+        
+        .seccion__contacto{
+            margin-left: 6vw;
+            
+            .contacto__titulo{
+                font-size: 6vw;
+                font-weight: bolder;
+                margin-top: 6vh;
+                margin-bottom: 2vh;
+                margin-left: 3vw;
+                border-bottom: 2px solid #FECF07;
+                border-radius: 1px;
+                width: fit-content;
+                font-family: museosans_900;
+                color: #FECF07;
+                opacity: .8;
+            }
+            .contacto__ubicacion{
+                opacity: .6;
+
+                .ubicacion__img{
+                    width: 1.2rem;
+                    height: 1.5rem;
+                    margin-right: 2vw;
+                    margin-left: 2.5vw;
+                }
+                .ubicacion__text{
+                    font-size: 5vw;
+                    color: #F6F6F6;
+                    
+                }
+
+            }
+            .contacto__telefono{
+                opacity: .6;
+
+                .telefono__img{
+                    width: 1.5rem;
+                    height: 1.5rem;
+                    margin-right: 2vw;
+                    margin-left: 2.5vw;
+
+                }
+                .telefono__text{
+                    font-size: 5vw;
+                    color: #F6F6F6;
+                }
+            }
+            .contacto__mail{
+                opacity: .6;
+
+                .mail__img{
+                    width: 1.5rem;
+                    height: 1.2rem;
+                    margin-right: 2vw;
+                    margin-left: 2.5vw;
+                }
+                .mail__text{
+                    font-size: 5vw;
+                    color: #F6F6F6;
+                }
+            }
+
+        }
+        .redes__sociales{
+            margin-left: 6vw;
+            opacity: .6;
+
+                .redes{
+                    width: 1.5rem;
+                    height: 1.5rem;
+                    margin-right: 2vw;
+                }
+            
+        }
+    }
+    .enlaces{
+        margin-left: 7vw;
+
+        .enlaces__titulo{
+            font-size: 6vw;
+            font-weight: bolder;
+            margin-top: 6vh;
+            margin-bottom: 2vh;
+            margin-left: 3vw;
+            border-bottom: 2px solid #FECF07;
+            border-radius: 1px;
+            width: fit-content;
+            font-family: museosans_900;
+            color: #FECF07;
+            opacity: .8;
+        }
+
+        .footer__lista{
+            list-style: none;
+            padding: 0;
+            margin-left: 4vw;
+            opacity: .6;
+
+            .footer__lista-links{
+                margin-bottom: 1.5vh;
+                .footer__link{
+                    font-size: 6vw;
+                    text-decoration: none;
+                    color: #F6F6F6;
+                    
+                }
+            }
+        }
+    }
+    .informacion{
+        
+
+        .informacion__titulo{
+            font-size: 6vw;
+            font-weight: bolder;
+            margin-top: 6vh;
+            margin-bottom: 2vh;
+            margin-left: 10vw;
+            border-bottom: 2px solid #FECF07;
+            border-radius: 1px;
+            width: fit-content;
+            font-family: museosans_900;
+            color: #FECF07;
+            opacity: .8;
+
+        }
+        .form{
+            .fomulario__texto{
+
+                .form__text{
+                    font-size: 5vw;
+                    color: #F6F6F6;
+                }
+                .form__boton{
+                    
+                }
+            }
+        }
+    }
+
+    @media only screen and (min-width: 768px){
+        
+        .container{
+            margin-right: 100px;
+
+            .seccion__contacto{
+                margin-left: 1vw;
+                
+                .contacto__titulo{
+                    font-size: 2vw;
+ 
+                }
+                .contacto__ubicacion{
+                    opacity: .6;
+    
+                    .ubicacion__img{
+                        width: 1.2rem;
+                        height: 1.5rem;
+                        margin-right: 2vw;
+                        margin-left: 2.5vw;
+                    }
+                    .ubicacion__text{
+                        font-size: 2vw;
+
+                        
+                    }
+    
+                }
+                .contacto__telefono{
+                    opacity: .6;
+    
+                    .telefono__img{
+                        width: 1.5rem;
+                        height: 1.5rem;
+                        margin-right: 2vw;
+                        margin-left: 2.5vw;
+    
+                    }
+                    .telefono__text{
+                        font-size: 2vw;
+
+                    }
+                }
+                .contacto__mail{
+                    opacity: .6;
+    
+                    .mail__img{
+                        width: 1.5rem;
+                        height: 1.2rem;
+                        margin-right: 2vw;
+                        margin-left: 2.5vw;
+                    }
+                    .mail__text{
+                        font-size: 2vw;
+
+                    }
+                }
+    
+            }
+            .redes__sociales{
+                margin-left: 1vw;
+                opacity: .6;
+    
+                    .redes{
+                        width: 1.5rem;
+                        height: 1.5rem;
+                        margin-right: 2vw;
+                    }
+                
+            }
+        }
+        .enlaces{
+            margin-left: 1vw;
+    
+            .enlaces__titulo{
+                font-size: 2vw;
+            }
+    
+            .footer__lista{
+                list-style: none;
+                padding: 0;
+                margin-left: 4vw;
+                opacity: .6;
+    
+                .footer__lista-links{
+                    margin-bottom: 1.5vh;
+
+                    .footer__link{
+                        font-size: 2vw;
+                        text-decoration: none;
+                        color: #F6F6F6;
+                        
+                    }
+                }
+            }
+        }
+        .informacion{
+            
+    
+            .informacion__titulo{
+                font-size: 2vw;
+
+    
+            }
+            .form{
+                .fomulario__texto{
+    
+                    .form__text{
+                        font-size: 5vw;
+                        color: #F6F6F6;
+                    }
+                    
+                }
+            }
+        }
+    }
+
+    @media only screen and (min-width: 1200px){
+        .container{
+            
+            .seccion__contacto{
+                margin-left: 1vw;
+                
+                .contacto__titulo{
+                    font-size: 1.5vw;
+ 
+                }
+                .contacto__ubicacion{
+                    opacity: .6;
+    
+                    .ubicacion__img{
+                        width: 1.2rem;
+                        height: 1.5rem;
+                        margin-right: 2vw;
+                        margin-left: 3vw;
+                    }
+                    .ubicacion__text{
+                        font-size: 1.5vw;
+
+                        
+                    }
+    
+                }
+                .contacto__telefono{
+                    opacity: .6;
+    
+                    .telefono__img{
+                        width: 1.5rem;
+                        height: 1.5rem;
+                        margin-right: 2vw;
+                        margin-left: 3vw;
+    
+                    }
+                    .telefono__text{
+                        font-size: 1.5vw;
+
+                    }
+                }
+                .contacto__mail{
+                    opacity: .6;
+    
+                    .mail__img{
+                        width: 1.5rem;
+                        height: 1.2rem;
+                        margin-right: 2vw;
+                        margin-left: 3vw;
+                        
+                    }
+                    .mail__text{
+                        font-size: 1.5vw;
+
+                    }
+                }
+    
+            }
+            .redes__sociales{
+                margin-left: 2vw;
+                opacity: .6;
+    
+                    .redes{
+                        width: 1.5rem;
+                        height: 1.5rem;
+                        margin-right: 1vw;
+                        margin-left: .5vw;
+                    }
+                
+            }
+        }
+        .enlaces{
+            margin-left: 1vw;
+    
+            .enlaces__titulo{
+                font-size: 1.5vw;
+            }
+    
+            .footer__lista{
+                list-style: none;
+                padding: 0;
+                margin-left: 3vw;
+                opacity: .6;
+    
+                .footer__lista-links{
+                    margin-bottom: 1vh;
+
+                    .footer__link{
+                        font-size: 1.5vw;
+                        text-decoration: none;
+                        color: #F6F6F6;
+                        
+                    }
+                }
+            }
+        }
+        .informacion{
+            
+    
+            .informacion__titulo{
+                font-size: 1.5vw;
+
+    
+            }
+            .form{
+                .fomulario__texto{
+    
+                    .form__text{
+                        font-size: 5vw;
+                        color: #F6F6F6;
+                    }
+                    .form__boton{
+                        
+                    }
+                }
+            }
+        }
+    }
+
+}

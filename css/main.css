@@ -530,39 +530,24 @@ body .cabecera {
       #proyectos .container .contenedor__proyecto .proyecto__text {
         font-family: museosans-300;
         color: #F6F6F6; }
-  @media only screen and (min-width: 768px) {
-    #proyectos .container .contenedor__img .proyecto__img {
-      width: 30vw;
-      position: absolute;
-      top: -20vh; }
-    #proyectos .container .contenedor__proyecto {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      margin-top: 5vh; }
-      #proyectos .container .contenedor__proyecto .proyecto__titulo {
-        font-size: 2.5vw; }
-      #proyectos .container .contenedor__proyecto .proyecto__text {
-        font-size: 4vh; } }
-  @media only screen and (min-width: 1200px) {
-    #proyectos .container {
-      padding-bottom: 65vh; }
-      #proyectos .container .contenedor__img .proyecto__img {
-        width: 30vw;
-        position: absolute;
-        top: -30vh; }
-      #proyectos .container .contenedor__proyecto {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        margin-top: 5vh; }
-        #proyectos .container .contenedor__proyecto .proyecto__titulo {
-          font-size: 2vw;
-          margin-bottom: 2vh; }
-        #proyectos .container .contenedor__proyecto .proyecto__text {
-          font-size: 4vh; } }
+    @media only screen and (min-width: 1200px) {
+      #proyectos .container .container {
+        padding-bottom: 65vh; }
+        #proyectos .container .container .contenedor__img .proyecto__img {
+          width: 30vw;
+          position: absolute;
+          top: -30vh; }
+        #proyectos .container .container .contenedor__proyecto {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          margin-top: 5vh; }
+          #proyectos .container .container .contenedor__proyecto .proyecto__titulo {
+            font-size: 2vw;
+            margin-bottom: 2vh; }
+          #proyectos .container .container .contenedor__proyecto .proyecto__text {
+            font-size: 4vh; } }
 
 #beneficios {
   background-color: #F6F6F6;
@@ -743,3 +728,219 @@ body .cabecera {
             margin-left: 4vw; }
           #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .aseguramos .aseguramos__text {
             font-size: 1.5vw; } }
+
+#footer {
+  background-color: black;
+  padding-top: 1vh; }
+  #footer .container .seccion__contacto {
+    margin-left: 6vw; }
+    #footer .container .seccion__contacto .contacto__titulo {
+      font-size: 6vw;
+      font-weight: bolder;
+      margin-top: 6vh;
+      margin-bottom: 2vh;
+      margin-left: 3vw;
+      border-bottom: 2px solid #FECF07;
+      border-radius: 1px;
+      width: fit-content;
+      font-family: museosans_900;
+      color: #FECF07;
+      opacity: .8; }
+    #footer .container .seccion__contacto .contacto__ubicacion {
+      opacity: .6; }
+      #footer .container .seccion__contacto .contacto__ubicacion .ubicacion__img {
+        width: 1.2rem;
+        height: 1.5rem;
+        margin-right: 2vw;
+        margin-left: 2.5vw; }
+      #footer .container .seccion__contacto .contacto__ubicacion .ubicacion__text {
+        font-size: 5vw;
+        color: #F6F6F6; }
+    #footer .container .seccion__contacto .contacto__telefono {
+      opacity: .6; }
+      #footer .container .seccion__contacto .contacto__telefono .telefono__img {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-right: 2vw;
+        margin-left: 2.5vw; }
+      #footer .container .seccion__contacto .contacto__telefono .telefono__text {
+        font-size: 5vw;
+        color: #F6F6F6; }
+    #footer .container .seccion__contacto .contacto__mail {
+      opacity: .6; }
+      #footer .container .seccion__contacto .contacto__mail .mail__img {
+        width: 1.5rem;
+        height: 1.2rem;
+        margin-right: 2vw;
+        margin-left: 2.5vw; }
+      #footer .container .seccion__contacto .contacto__mail .mail__text {
+        font-size: 5vw;
+        color: #F6F6F6; }
+  #footer .container .redes__sociales {
+    margin-left: 6vw;
+    opacity: .6; }
+    #footer .container .redes__sociales .redes {
+      width: 1.5rem;
+      height: 1.5rem;
+      margin-right: 2vw; }
+  #footer .enlaces {
+    margin-left: 7vw; }
+    #footer .enlaces .enlaces__titulo {
+      font-size: 6vw;
+      font-weight: bolder;
+      margin-top: 6vh;
+      margin-bottom: 2vh;
+      margin-left: 3vw;
+      border-bottom: 2px solid #FECF07;
+      border-radius: 1px;
+      width: fit-content;
+      font-family: museosans_900;
+      color: #FECF07;
+      opacity: .8; }
+    #footer .enlaces .footer__lista {
+      list-style: none;
+      padding: 0;
+      margin-left: 4vw;
+      opacity: .6; }
+      #footer .enlaces .footer__lista .footer__lista-links {
+        margin-bottom: 1.5vh; }
+        #footer .enlaces .footer__lista .footer__lista-links .footer__link {
+          font-size: 6vw;
+          text-decoration: none;
+          color: #F6F6F6; }
+  #footer .informacion .informacion__titulo {
+    font-size: 6vw;
+    font-weight: bolder;
+    margin-top: 6vh;
+    margin-bottom: 2vh;
+    margin-left: 10vw;
+    border-bottom: 2px solid #FECF07;
+    border-radius: 1px;
+    width: fit-content;
+    font-family: museosans_900;
+    color: #FECF07;
+    opacity: .8; }
+  #footer .informacion .form .fomulario__texto .form__text {
+    font-size: 5vw;
+    color: #F6F6F6; }
+  @media only screen and (min-width: 768px) {
+    #footer .container {
+      margin-right: 100px; }
+      #footer .container .seccion__contacto {
+        margin-left: 1vw; }
+        #footer .container .seccion__contacto .contacto__titulo {
+          font-size: 2vw; }
+        #footer .container .seccion__contacto .contacto__ubicacion {
+          opacity: .6; }
+          #footer .container .seccion__contacto .contacto__ubicacion .ubicacion__img {
+            width: 1.2rem;
+            height: 1.5rem;
+            margin-right: 2vw;
+            margin-left: 2.5vw; }
+          #footer .container .seccion__contacto .contacto__ubicacion .ubicacion__text {
+            font-size: 2vw; }
+        #footer .container .seccion__contacto .contacto__telefono {
+          opacity: .6; }
+          #footer .container .seccion__contacto .contacto__telefono .telefono__img {
+            width: 1.5rem;
+            height: 1.5rem;
+            margin-right: 2vw;
+            margin-left: 2.5vw; }
+          #footer .container .seccion__contacto .contacto__telefono .telefono__text {
+            font-size: 2vw; }
+        #footer .container .seccion__contacto .contacto__mail {
+          opacity: .6; }
+          #footer .container .seccion__contacto .contacto__mail .mail__img {
+            width: 1.5rem;
+            height: 1.2rem;
+            margin-right: 2vw;
+            margin-left: 2.5vw; }
+          #footer .container .seccion__contacto .contacto__mail .mail__text {
+            font-size: 2vw; }
+      #footer .container .redes__sociales {
+        margin-left: 1vw;
+        opacity: .6; }
+        #footer .container .redes__sociales .redes {
+          width: 1.5rem;
+          height: 1.5rem;
+          margin-right: 2vw; }
+    #footer .enlaces {
+      margin-left: 1vw; }
+      #footer .enlaces .enlaces__titulo {
+        font-size: 2vw; }
+      #footer .enlaces .footer__lista {
+        list-style: none;
+        padding: 0;
+        margin-left: 4vw;
+        opacity: .6; }
+        #footer .enlaces .footer__lista .footer__lista-links {
+          margin-bottom: 1.5vh; }
+          #footer .enlaces .footer__lista .footer__lista-links .footer__link {
+            font-size: 2vw;
+            text-decoration: none;
+            color: #F6F6F6; }
+    #footer .informacion .informacion__titulo {
+      font-size: 2vw; }
+    #footer .informacion .form .fomulario__texto .form__text {
+      font-size: 5vw;
+      color: #F6F6F6; } }
+  @media only screen and (min-width: 1200px) {
+    #footer .container .seccion__contacto {
+      margin-left: 1vw; }
+      #footer .container .seccion__contacto .contacto__titulo {
+        font-size: 1.5vw; }
+      #footer .container .seccion__contacto .contacto__ubicacion {
+        opacity: .6; }
+        #footer .container .seccion__contacto .contacto__ubicacion .ubicacion__img {
+          width: 1.2rem;
+          height: 1.5rem;
+          margin-right: 2vw;
+          margin-left: 3vw; }
+        #footer .container .seccion__contacto .contacto__ubicacion .ubicacion__text {
+          font-size: 1.5vw; }
+      #footer .container .seccion__contacto .contacto__telefono {
+        opacity: .6; }
+        #footer .container .seccion__contacto .contacto__telefono .telefono__img {
+          width: 1.5rem;
+          height: 1.5rem;
+          margin-right: 2vw;
+          margin-left: 3vw; }
+        #footer .container .seccion__contacto .contacto__telefono .telefono__text {
+          font-size: 1.5vw; }
+      #footer .container .seccion__contacto .contacto__mail {
+        opacity: .6; }
+        #footer .container .seccion__contacto .contacto__mail .mail__img {
+          width: 1.5rem;
+          height: 1.2rem;
+          margin-right: 2vw;
+          margin-left: 3vw; }
+        #footer .container .seccion__contacto .contacto__mail .mail__text {
+          font-size: 1.5vw; }
+    #footer .container .redes__sociales {
+      margin-left: 2vw;
+      opacity: .6; }
+      #footer .container .redes__sociales .redes {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-right: 1vw;
+        margin-left: .5vw; }
+    #footer .enlaces {
+      margin-left: 1vw; }
+      #footer .enlaces .enlaces__titulo {
+        font-size: 1.5vw; }
+      #footer .enlaces .footer__lista {
+        list-style: none;
+        padding: 0;
+        margin-left: 3vw;
+        opacity: .6; }
+        #footer .enlaces .footer__lista .footer__lista-links {
+          margin-bottom: 1vh; }
+          #footer .enlaces .footer__lista .footer__lista-links .footer__link {
+            font-size: 1.5vw;
+            text-decoration: none;
+            color: #F6F6F6; }
+    #footer .informacion .informacion__titulo {
+      font-size: 1.5vw; }
+    #footer .informacion .form .fomulario__texto .form__text {
+      font-size: 5vw;
+      color: #F6F6F6; } }
