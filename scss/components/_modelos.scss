@@ -60,4 +60,49 @@
 
 
     }
+    @media only screen and (min-width: 768px){
+
+        .container{
+            .contenedor__modelos{
+    
+                .modelos__titulo{
+                    font-size: 2.5vw;
+                    margin-left: 4vw;
+                }
+    
+                .modelos__text1{
+                    font-size: 4vw;
+                    margin-left: 4vw;
+                }
+                .modelos__text2{
+                    font-size: 1.9vw;
+                    margin-left: 4vw;
+                }
+                .modelos__text3{
+                    font-size: 2vw;
+                    margin-left: 4vw;
+                }
+            
+            }
+            .contenedor__carrousel{
+    
+                .contenedor__rayas{
+                    
+                    .img__rayas{
+                        width: 50%;
+                    }
+                    
+                }
+    
+                .carousel{
+                    margin-left: 7vw;
+                    margin-bottom: 5vh;
+                    width: 65%;
+                }
+            }
+    
+    
+    
+        }
+    }
 }

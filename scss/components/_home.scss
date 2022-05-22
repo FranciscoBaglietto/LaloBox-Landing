@@ -14,7 +14,7 @@
         & img{
             width: 30vw;
             position: absolute;
-            top: -8vh;
+            top: 5vh;
         }
 
     }
@@ -61,20 +61,25 @@
         .home__sticker{
 
             & img{
-                top: -20vh;
+                top: -3vh;
             }
 
         }
         .container{
     
             .home__text1{
-                font-size: 3.5vw;
+                font-size: 3vw;
                 text-shadow: 3px 3px 3px black;
                 margin-top: 20vh;
+                margin-bottom: .5vh;
             }
             .home__text2{
                 font-size: 4vw;
                 text-shadow: 3px 3px 3px black;
+            }
+            .home__boton{
+                font-size: 1.5vw;
+                padding: 0.1vh 1vw;
             }
         }
         
