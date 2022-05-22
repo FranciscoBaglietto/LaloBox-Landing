@@ -301,7 +301,8 @@ body .cabecera {
       width: 70%; }
     #modelos .container .contenedor__carrousel .carousel {
       margin: 0 3vw;
-      width: 100%; }
+      width: 100%;
+      margin-bottom: 4vh; }
   @media only screen and (min-width: 768px) {
     #modelos .container .contenedor__modelos .modelos__titulo {
       font-size: 2.5vw;
