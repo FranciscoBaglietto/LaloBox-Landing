@@ -126,4 +126,127 @@
 
         }
     }
+
+    @media only screen and (min-width: 768px){
+        
+        .container{
+            
+            .contenedor__imagen{
+    
+                .beneficio__img{
+                    width: 105%;
+                
+                }
+            }
+    
+            .beneficio__contenedor{
+
+                .contenedor__textos{
+    
+                    .beneficio__titulo{ 
+                        font-size: 4vw;
+                        margin-left: 1.5vw;
+        
+                    }
+                    .beneficio__text{
+                        font-size: 3vw;
+                        margin-left: 1.5vw;
+
+                    }
+                }
+                
+                .contenedor__beneficios{
+                    margin-top: 7vh;
+                    margin-bottom: 6vh;
+                    
+                    .contenedor__mantenimiento{
+                        
+                        .mantenimiento{
+                            
+                            .mantenimiento__img{
+                                width: 2.5rem;
+                                height: 2.5rem;
+                                margin-left: 4vh;
+                            }
+                            .mantenimiento__text{
+                                font-size: 1.5vw;
+                                
+                            }
+                            
+                        }
+                        .construccion{
+                            
+                            .construccion__img{
+                                width: 2.5rem;
+                                height: 2.5rem;
+                                margin-left: 4vh;
+                            }
+                            .construccion__text{
+                                font-size: 1.5vw;
+                                
+                            }
+                        }
+                        .recupero{
+                            
+                            .recupero__img{
+                                width: 2.5rem;
+                                height: 2.5rem;
+                                margin-left: 4vh;
+                            }
+                            .recupero__text{
+                                font-size: 1.5vw;
+                                
+                            }
+                        }
+                        
+                        
+                    }
+                    
+                    .contenedor__traslado{
+                        
+                        .traslado{
+                            
+                            .traslado__img{
+                                width: 2.5rem;
+                                height: 2.5rem;
+                                margin-left: 4vh;
+                            }
+                            .traslado__text{
+                                font-size: 1.5vw;
+                                
+                            }
+                        }
+                        .garantia{
+                            margin-top: 2.5vh;
+                            .garantia__img{
+                                width: 2.5rem;
+                                height: 2.5rem;
+                                margin-left: 4vh;
+                            }
+                            .garantia__text{
+                                font-size: 1.5vw;
+                                
+                            }
+                        }
+                        .aseguramos{
+                            
+                            .aseguramos__img{
+                                width: 2.5rem;
+                                height: 2.5rem;
+                                margin-left: 4vh;
+                            }
+                            .aseguramos__text{
+                                font-size: 1.5vw;
+                                
+                            }
+                        }
+                        
+                    }
+                    
+                }
+    
+    
+            }
+        }
+    }
 }
