@@ -110,17 +110,20 @@ body .cabecera {
       font-size: 1.5vw;
       padding: 0.1vh 1vw; } }
   @media only screen and (min-width: 1200px) {
-    #home .home__sticker img {
-      top: -30vh; }
-    #home .container {
-      height: 89vh; }
+    #home {
+      padding-bottom: 13vh; }
+      #home .home__sticker img {
+        margin-top: -12vh; }
       #home .container .home__text1 {
         font-size: 2.5vw;
         text-shadow: 3px 3px 3px black;
-        margin-top: 24vh; }
+        margin-top: 35vh;
+        margin-bottom: .5vh; }
       #home .container .home__text2 {
-        font-size: 3.5vw;
-        text-shadow: 3px 3px 3px black; } }
+        font-size: 3.5vw; }
+      #home .container .home__boton {
+        font-size: 1.1vw;
+        padding: .1vh .5vw; } }
 
 #nosotros {
   background-color: #F6F6F6; }
@@ -217,6 +220,47 @@ body .cabecera {
       height: 3rem; }
     #nosotros .container .contenedor__caracteristicas .entrega .entrega__text {
       font-size: 1.8vw; } }
+  @media only screen and (min-width: 1200px) {
+    #nosotros .container .nosotros__imagen {
+      margin: 0 4vw;
+      margin-top: -.3vh;
+      width: 90%; }
+    #nosotros .container .contenedor_nosotros .nosotros_titulo {
+      font-size: 2vw;
+      margin-top: 12vh;
+      margin-left: 6vw; }
+    #nosotros .container .contenedor_nosotros .nosotros__texto {
+      font-size: 1.5vw;
+      margin-bottom: 1vh;
+      padding-bottom: 3vh;
+      margin-top: 12vh;
+      margin-left: 6vw; }
+    #nosotros .container .contenedor__caracteristicas {
+      gap: 15%; }
+      #nosotros .container .contenedor__caracteristicas .compromiso-fabrica {
+        margin-left: 3vw; }
+        #nosotros .container .contenedor__caracteristicas .compromiso-fabrica .compromiso .compromiso__img {
+          width: 3.5rem;
+          height: 3.5rem; }
+        #nosotros .container .contenedor__caracteristicas .compromiso-fabrica .compromiso .compromiso__text {
+          font-size: 1.5vw; }
+        #nosotros .container .contenedor__caracteristicas .compromiso-fabrica .fabrica .fabrica__img {
+          width: 3.5rem;
+          height: 3.5rem; }
+        #nosotros .container .contenedor__caracteristicas .compromiso-fabrica .fabrica .fabrica__text {
+          font-size: 1.5vw;
+          margin-top: 2vh; }
+      #nosotros .container .contenedor__caracteristicas .calidad-entrega .calidad__img {
+        width: 3.5rem;
+        height: 3.5rem; }
+      #nosotros .container .contenedor__caracteristicas .calidad-entrega .calidad__text {
+        font-size: 1.5vw;
+        margin-top: 3vh; }
+      #nosotros .container .contenedor__caracteristicas .entrega .entrega__img {
+        width: 3.5rem;
+        height: 3.5rem; }
+      #nosotros .container .contenedor__caracteristicas .entrega .entrega__text {
+        font-size: 1.5vw; } }
 
 #modelos {
   background-color: black; }
@@ -275,6 +319,27 @@ body .cabecera {
       margin-left: 7vw;
       margin-bottom: 5vh;
       width: 65%; } }
+  @media only screen and (min-width: 1200px) {
+    #modelos .container .contenedor__modelos .modelos__titulo {
+      font-size: 2vw;
+      margin-top: 12vh;
+      margin-left: 6vw; }
+    #modelos .container .contenedor__modelos .modelos__text1 {
+      font-size: 3.5vw;
+      margin-left: 6vw; }
+    #modelos .container .contenedor__modelos .modelos__text2 {
+      font-size: 1.6vw;
+      margin-left: 6vw; }
+    #modelos .container .contenedor__modelos .modelos__text3 {
+      font-size: 1.5vw;
+      margin-left: 6vw; }
+    #modelos .container .contenedor__carrousel .contenedor__rayas .img__rayas {
+      width: 50%;
+      margin-right: 7vw; }
+    #modelos .container .contenedor__carrousel .carousel {
+      margin-left: 7vw;
+      margin-bottom: 6vh;
+      width: 55%; } }
 
 #viviendas {
   background-color: #F6F6F6; }
@@ -332,9 +397,11 @@ body .cabecera {
       margin-top: 2vh;
       font-size: museosans-500;
       font-weight: bold; }
-  #viviendas .container .contenedor__imagen .viviendas__imagen {
-    width: 105%;
-    margin: 0vh 1vw; }
+  #viviendas .container .contenedor__imagen {
+    padding: 0; }
+    #viviendas .container .contenedor__imagen .viviendas__imagen {
+      width: 108%;
+      margin: 0vh 0vw; }
   @media only screen and (min-width: 768px) {
     #viviendas {
       overflow: hidden; }

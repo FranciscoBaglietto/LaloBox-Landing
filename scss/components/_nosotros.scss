@@ -188,11 +188,6 @@
                     }
     
                 }
-                
-    
-    
-    
-    
     
             }
     
@@ -200,4 +195,96 @@
         }
         
     }
+    @media only screen and (min-width: 1200px){
+
+        .container{
+
+            .nosotros__imagen{
+                margin: 0 4vw;
+                margin-top: -.3vh;
+                width: 90%;
+                
+            }
+            
+            .contenedor_nosotros{
+  
+                .nosotros_titulo{
+                    font-size: 2vw;
+                    margin-top: 12vh;
+                    margin-left: 6vw;
+                    
+                }
+                .nosotros__texto{
+                    font-size: 1.5vw;
+                    margin-bottom: 1vh;
+                    padding-bottom: 3vh;
+                    margin-top: 12vh;
+                    margin-left: 6vw;
+                }
+    
+            }
+    
+            .contenedor__caracteristicas{
+                gap: 15%;
+                
+                .compromiso-fabrica{
+                    margin-left: 3vw;
+                    .compromiso{
+    
+                        .compromiso__img{
+                            width: 3.5rem;
+                            height: 3.5rem;
+                        }
+                        .compromiso__text{
+                            font-size: 1.5vw;
+ 
+                        }
+                        
+                    }
+                    .fabrica{
+    
+                        .fabrica__img{
+                            width: 3.5rem;
+                            height: 3.5rem;
+                        }
+                        .fabrica__text{
+                            font-size: 1.5vw;
+                            margin-top: 2vh;
+                        }
+    
+                    }
+                    
+                }
+                .calidad-entrega {
+    
+                    .calidad__img{
+                        width: 3.5rem;
+                        height: 3.5rem;
+                        
+                    }
+                    .calidad__text{
+                        font-size: 1.5vw;
+                        margin-top: 3vh;
+                    }
+    
+                }
+                .entrega{
+                    .entrega__img{
+                        width: 3.5rem;
+                        height: 3.5rem;
+                    }
+                    .entrega__text{
+                        font-size: 1.5vw;
+                    }
+    
+                }
+    
+            }
+    
+    
+        }
+        
+    }
+    
+
 }

@@ -105,4 +105,52 @@
     
         }
     }
+
+    @media only screen and (min-width: 1200px){
+
+        .container{
+            .contenedor__modelos{
+    
+                .modelos__titulo{
+                    font-size: 2vw;
+                    margin-top: 12vh;
+                    margin-left: 6vw;
+                }
+    
+                .modelos__text1{
+                    font-size: 3.5vw;
+                    margin-left: 6vw;
+                }
+                .modelos__text2{
+                    font-size: 1.6vw;
+                    margin-left: 6vw;
+                }
+                .modelos__text3{
+                    font-size: 1.5vw;
+                    margin-left: 6vw;
+                }
+            
+            }
+            .contenedor__carrousel{
+    
+                .contenedor__rayas{
+                    
+                    .img__rayas{
+                        width: 50%;
+                        margin-right: 7vw;
+                    }
+                    
+                }
+    
+                .carousel{
+                    margin-left: 7vw;
+                    margin-bottom: 6vh;
+                    width: 55%;
+                }
+            }
+    
+    
+    
+        }
+    }
 }
