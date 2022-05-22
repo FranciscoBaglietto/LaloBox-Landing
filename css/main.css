@@ -309,54 +309,63 @@ body .cabecera .container-fluid .contenedor__navbar .navbar-nav {
         font-family: museosans-300;
         color: #F6F6F6; }
 
-#beneficios .container .contenedor__imagen .beneficio__img {
-  width: 100%;
-  margin: 0vh 3vw; }
-
-#beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__mantenimiento .mantenimiento .mantenimiento__img {
-  width: 8.5vw;
-  height: 7vh; }
-
-#beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__mantenimiento .mantenimiento .mantenimiento__text {
-  font-size: 2vh;
-  margin-top: 2vh; }
-
-#beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__mantenimiento .construccion .construccion__img {
-  width: 8.5vw;
-  height: 7vh; }
-
-#beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__mantenimiento .construccion .construccion__text {
-  font-size: 2vh;
-  margin-top: 2vh; }
-
-#beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__mantenimiento .recupero .recupero__img {
-  width: 8.5vw;
-  height: 7vh; }
-
-#beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__mantenimiento .recupero .recupero__text {
-  font-size: 2vh;
-  margin-top: 2vh; }
-
-#beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .traslado .traslado__img {
-  width: 8.5vw;
-  height: 7vh; }
-
-#beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .traslado .traslado__text {
-  font-size: 2vh;
-  margin-top: 2vh; }
-
-#beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .garantia .garantia__img {
-  width: 8.5vw;
-  height: 7vh; }
-
-#beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .garantia .garantia__text {
-  font-size: 2vh;
-  margin-top: 2vh; }
-
-#beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .aseguramos .aseguramos__img {
-  width: 8.5vw;
-  height: 7vh; }
-
-#beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .aseguramos .aseguramos__text {
-  font-size: 2vh;
-  margin-top: 2vh; }
+#beneficios {
+  background-color: #F6F6F6;
+  overflow: hidden; }
+  #beneficios .container .contenedor__imagen .beneficio__img {
+    width: 100%;
+    margin: 0vh 3vw;
+    margin-top: -.5vh; }
+  #beneficios .container .beneficio__contenedor .contenedor__textos {
+    text-align: center;
+    margin-top: 5vh; }
+    #beneficios .container .beneficio__contenedor .contenedor__textos .beneficio__titulo {
+      font-size: 10vw;
+      color: black;
+      font-family: jersey_m54; }
+    #beneficios .container .beneficio__contenedor .contenedor__textos .beneficio__text {
+      font-size: 6vw;
+      color: black;
+      font-family: jersey_m54; }
+  #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__mantenimiento .mantenimiento .mantenimiento__img {
+    width: 3rem;
+    height: 3rem; }
+  #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__mantenimiento .mantenimiento .mantenimiento__text {
+    font-size: 4vw;
+    margin-top: 2vh;
+    font-size: museosans-500; }
+  #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__mantenimiento .construccion .construccion__img {
+    width: 3rem;
+    height: 3rem; }
+  #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__mantenimiento .construccion .construccion__text {
+    font-size: 4vw;
+    margin-top: 2vh;
+    font-size: museosans-500; }
+  #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__mantenimiento .recupero .recupero__img {
+    width: 3rem;
+    height: 3rem; }
+  #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__mantenimiento .recupero .recupero__text {
+    font-size: 4vw;
+    margin-top: 2vh;
+    font-size: museosans-500; }
+  #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .traslado .traslado__img {
+    width: 3rem;
+    height: 3rem; }
+  #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .traslado .traslado__text {
+    font-size: 4vw;
+    margin-top: 2vh;
+    font-size: museosans-500; }
+  #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .garantia .garantia__img {
+    width: 3rem;
+    height: 3rem; }
+  #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .garantia .garantia__text {
+    font-size: 4vw;
+    margin-top: 2vh;
+    font-size: museosans-500; }
+  #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .aseguramos .aseguramos__img {
+    width: 3rem;
+    height: 3rem; }
+  #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .aseguramos .aseguramos__text {
+    font-size: 4vw;
+    margin-top: 2vh;
+    font-size: museosans-500; }

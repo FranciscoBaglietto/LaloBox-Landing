@@ -1,5 +1,6 @@
 #beneficios{
-
+    background-color: #F6F6F6;
+    overflow: hidden;
     .container{
         
         .contenedor__imagen{
@@ -7,48 +8,71 @@
             .beneficio__img{
                 width: 100%;
                 margin: 0vh 3vw;
+                margin-top: -.5vh;
             
             }
         }
 
         .beneficio__contenedor{
             
+            .contenedor__textos{
+                text-align: center;
+                margin-top: 5vh;
+
+                .beneficio__titulo{ 
+                    font-size: 10vw;
+                    color: black;
+                    font-family: jersey_m54;
+                }
+                .beneficio__text{
+                    font-size: 6vw;
+                    color: black;
+                    font-family: jersey_m54;
+                }
+            }
+            
             .contenedor__beneficios{
-                
+
                 .contenedor__mantenimiento{
                     
                     .mantenimiento{
                         
                         .mantenimiento__img{
-                            width: 8.5vw;
-                            height: 7vh;
+                            width: 3rem;
+                            height: 3rem;
                         }
                         .mantenimiento__text{
-                            font-size: 2vh;
+                            font-size: 4vw;
                             margin-top: 2vh;
+                            font-size: museosans-500;
+                            
                         }
                         
                     }
                     .construccion{
                         
                         .construccion__img{
-                            width: 8.5vw;
-                            height: 7vh;
+                            width: 3rem;
+                            height: 3rem;
                         }
                         .construccion__text{
-                            font-size: 2vh;
+                            font-size: 4vw;
                             margin-top: 2vh;
+                            font-size: museosans-500;
+                            
                         }
                     }
                     .recupero{
                         
                         .recupero__img{
-                            width: 8.5vw;
-                            height: 7vh;
+                            width: 3rem;
+                            height: 3rem;
                         }
                         .recupero__text{
-                            font-size: 2vh;
+                            font-size: 4vw;
                             margin-top: 2vh;
+                            font-size: museosans-500;
+                            
                         }
                     }
                     
@@ -60,34 +84,40 @@
                     .traslado{
                         
                         .traslado__img{
-                            width: 8.5vw;
-                            height: 7vh;
+                            width: 3rem;
+                            height: 3rem;
                         }
                         .traslado__text{
-                            font-size: 2vh;
+                            font-size: 4vw;
                             margin-top: 2vh;
+                            font-size: museosans-500;
+                            
                         }
                     }
                     .garantia{
                         
                         .garantia__img{
-                            width: 8.5vw;
-                            height: 7vh;
+                            width: 3rem;
+                            height: 3rem;
                         }
                         .garantia__text{
-                            font-size: 2vh;
+                            font-size: 4vw;
                             margin-top: 2vh;
+                            font-size: museosans-500;
+                            
                         }
                     }
                     .aseguramos{
                         
                         .aseguramos__img{
-                            width: 8.5vw;
-                            height: 7vh;
+                            width: 3rem;
+                            height: 3rem;
                         }
                         .aseguramos__text{
-                            font-size: 2vh;
+                            font-size: 4vw;
                             margin-top: 2vh;
+                            font-size: museosans-500;
+                            
                         }
                     }
                     
