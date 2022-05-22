@@ -14,7 +14,7 @@
         }
 
         .beneficio__contenedor{
-            
+  
             .contenedor__textos{
                 text-align: center;
                 margin-top: 5vh;
@@ -32,7 +32,9 @@
             }
             
             .contenedor__beneficios{
-
+                margin-top: 7vh;
+                margin-bottom: 6vh;
+                
                 .contenedor__mantenimiento{
                     
                     .mantenimiento{
@@ -43,7 +45,6 @@
                         }
                         .mantenimiento__text{
                             font-size: 4vw;
-                            margin-top: 2vh;
                             font-size: museosans-500;
                             
                         }
@@ -57,7 +58,6 @@
                         }
                         .construccion__text{
                             font-size: 4vw;
-                            margin-top: 2vh;
                             font-size: museosans-500;
                             
                         }
@@ -95,14 +95,13 @@
                         }
                     }
                     .garantia{
-                        
+                        margin-top: 2.5vh;
                         .garantia__img{
                             width: 3rem;
                             height: 3rem;
                         }
                         .garantia__text{
                             font-size: 4vw;
-                            margin-top: 2vh;
                             font-size: museosans-500;
                             
                         }
@@ -115,7 +114,6 @@
                         }
                         .aseguramos__text{
                             font-size: 4vw;
-                            margin-top: 2vh;
                             font-size: museosans-500;
                             
                         }
