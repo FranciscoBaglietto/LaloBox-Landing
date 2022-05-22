@@ -249,4 +249,134 @@
             }
         }
     }
+    @media only screen and (min-width: 1200px){
+
+        .container{
+            
+            .contenedor__imagen{
+    
+                .beneficio__img{
+                    margin: 0 4vw;
+                    margin-top: -.4vh;
+                    width: 90%;
+                    margin-left: 6vw;
+                
+                }
+            }
+    
+            .beneficio__contenedor{
+
+                .contenedor__textos{
+    
+                    .beneficio__titulo{ 
+                        font-size: 4vw;
+                        margin-left: 1.5vw;
+                        margin-top: 8vh;
+        
+                    }
+                    .beneficio__text{
+                        font-size: 3vw;
+                        margin-left: 1.5vw;
+                        margin-bottom: 10vh;
+
+                    }
+                }
+                
+                .contenedor__beneficios{
+                    margin-top: 7vh;
+                    margin-bottom: 6vh;
+                    
+                    .contenedor__mantenimiento{
+                        
+                        .mantenimiento{
+                            margin-bottom: 2vh;
+                            .mantenimiento__img{
+                                width: 4rem;
+                                height: 4rem;
+                                margin-left: 4vw;
+                            }
+                            .mantenimiento__text{
+                                font-size: 1.5vw;
+                                margin-top: 2vh;
+                                
+                            }
+                            
+                        }
+                        .construccion{
+                            margin-bottom: 2vh;
+                            .construccion__img{
+                                width: 4rem;
+                                height: 4rem;
+                                margin-left: 4vw;
+                            }
+                            .construccion__text{
+                                font-size: 1.5vw;
+                                
+                            }
+                        }
+                        .recupero{
+                            margin-bottom: 2vh;
+                            .recupero__img{
+                                width: 4rem;
+                                height: 4rem;
+                                margin-left: 4vw;
+                            }
+                            .recupero__text{
+                                font-size: 1.5vw;
+                                
+                            }
+                        }
+                        
+                        
+                    }
+                    
+                    .contenedor__traslado{
+                        margin-bottom: 2vh;
+                        .traslado{
+                            
+                            .traslado__img{
+                                width: 4rem;
+                                height: 4rem;
+                                margin-left: 4vw;
+                            }
+                            .traslado__text{
+                                font-size: 1.5vw;
+                                
+                            }
+                        }
+                        .garantia{
+                            margin-top: 2.5vh;
+                            margin-bottom: 2vh;
+                            .garantia__img{
+                                width: 4rem;
+                                height: 4rem;
+                                margin-left: 4vw;
+                            }
+                            .garantia__text{
+                                font-size: 1.5vw;
+                                margin-top: 2vh;
+                                
+                            }
+                        }
+                        .aseguramos{
+                            margin-bottom: 2vh;
+                            .aseguramos__img{
+                                width: 4rem;
+                                height: 4rem;
+                                margin-left: 4vw;
+                            }
+                            .aseguramos__text{
+                                font-size: 1.5vw;
+                                
+                            }
+                        }
+                        
+                    }
+                    
+                }
+    
+    
+            }
+        }
+    }
 }

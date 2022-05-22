@@ -113,7 +113,7 @@ body .cabecera {
     #home {
       padding-bottom: 13vh; }
       #home .home__sticker img {
-        margin-top: -12vh; }
+        margin-top: -15vh; }
       #home .container .home__text1 {
         font-size: 2.5vw;
         text-shadow: 3px 3px 3px black;
@@ -224,7 +224,8 @@ body .cabecera {
     #nosotros .container .nosotros__imagen {
       margin: 0 4vw;
       margin-top: -.3vh;
-      width: 90%; }
+      width: 90%;
+      margin-left: 6vw; }
     #nosotros .container .contenedor_nosotros .nosotros_titulo {
       font-size: 2vw;
       margin-top: 12vh;
@@ -450,6 +451,52 @@ body .cabecera {
         width: 127%;
         margin: 0vh 0vw;
         margin-top: -.5vh; } }
+  @media only screen and (min-width: 1200px) {
+    #viviendas .container .contenedor__viviendas {
+      margin-bottom: -2vh; }
+      #viviendas .container .contenedor__viviendas .viviendas__titulo {
+        font-size: 2vw;
+        margin-top: 12vh;
+        margin-left: 6vw; }
+      #viviendas .container .contenedor__viviendas .vivienda__text1 {
+        font-size: 3.5vw;
+        margin-left: 6vw; }
+      #viviendas .container .contenedor__viviendas .vivienda__text2 {
+        font-size: 2.4vw;
+        margin-left: 6vw; }
+      #viviendas .container .contenedor__viviendas .vivienda__text3 {
+        font-size: 1.4vw;
+        margin-left: 6vw;
+        margin-top: 5vh;
+        margin-bottom: 3vh; }
+    #viviendas .container .contenedor__metros {
+      margin-bottom: -2vh; }
+      #viviendas .container .contenedor__metros .img__tick {
+        width: 3.7rem;
+        height: 3.7rem;
+        margin-left: 5vw; }
+      #viviendas .container .contenedor__metros .metros__text {
+        font-size: 1.4vw; }
+    #viviendas .container .contenedor__equipado {
+      margin-bottom: -2vh; }
+      #viviendas .container .contenedor__equipado .img__equipado {
+        width: 3.7rem;
+        height: 3.7rem;
+        margin-left: 5vw; }
+      #viviendas .container .contenedor__equipado .equipado__text {
+        font-size: 1.4vw; }
+    #viviendas .container .contenedor__financiado {
+      margin-bottom: 3vh; }
+      #viviendas .container .contenedor__financiado .img__financiado {
+        width: 3.7rem;
+        height: 3.7rem;
+        margin-left: 5vw; }
+      #viviendas .container .contenedor__financiado .financiado__text {
+        font-size: 1.4vw; }
+    #viviendas .container .contenedor__imagen .viviendas__imagen {
+      width: 100%;
+      margin-left: 17vh;
+      margin-top: -.5vh; } }
 
 #proyectos {
   background-color: black; }
@@ -496,6 +543,24 @@ body .cabecera {
         font-size: 2.5vw; }
       #proyectos .container .contenedor__proyecto .proyecto__text {
         font-size: 4vh; } }
+  @media only screen and (min-width: 1200px) {
+    #proyectos .container {
+      padding-bottom: 65vh; }
+      #proyectos .container .contenedor__img .proyecto__img {
+        width: 30vw;
+        position: absolute;
+        top: -30vh; }
+      #proyectos .container .contenedor__proyecto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 5vh; }
+        #proyectos .container .contenedor__proyecto .proyecto__titulo {
+          font-size: 2vw;
+          margin-bottom: 2vh; }
+        #proyectos .container .contenedor__proyecto .proyecto__text {
+          font-size: 4vh; } }
 
 #beneficios {
   background-color: #F6F6F6;
@@ -608,3 +673,71 @@ body .cabecera {
         margin-left: 4vh; }
       #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .aseguramos .aseguramos__text {
         font-size: 1.5vw; } }
+  @media only screen and (min-width: 1200px) {
+    #beneficios .container .contenedor__imagen .beneficio__img {
+      margin: 0 4vw;
+      margin-top: -.4vh;
+      width: 90%;
+      margin-left: 6vw; }
+    #beneficios .container .beneficio__contenedor .contenedor__textos .beneficio__titulo {
+      font-size: 4vw;
+      margin-left: 1.5vw;
+      margin-top: 8vh; }
+    #beneficios .container .beneficio__contenedor .contenedor__textos .beneficio__text {
+      font-size: 3vw;
+      margin-left: 1.5vw;
+      margin-bottom: 10vh; }
+    #beneficios .container .beneficio__contenedor .contenedor__beneficios {
+      margin-top: 7vh;
+      margin-bottom: 6vh; }
+      #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__mantenimiento .mantenimiento {
+        margin-bottom: 2vh; }
+        #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__mantenimiento .mantenimiento .mantenimiento__img {
+          width: 4rem;
+          height: 4rem;
+          margin-left: 4vw; }
+        #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__mantenimiento .mantenimiento .mantenimiento__text {
+          font-size: 1.5vw;
+          margin-top: 2vh; }
+      #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__mantenimiento .construccion {
+        margin-bottom: 2vh; }
+        #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__mantenimiento .construccion .construccion__img {
+          width: 4rem;
+          height: 4rem;
+          margin-left: 4vw; }
+        #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__mantenimiento .construccion .construccion__text {
+          font-size: 1.5vw; }
+      #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__mantenimiento .recupero {
+        margin-bottom: 2vh; }
+        #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__mantenimiento .recupero .recupero__img {
+          width: 4rem;
+          height: 4rem;
+          margin-left: 4vw; }
+        #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__mantenimiento .recupero .recupero__text {
+          font-size: 1.5vw; }
+      #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado {
+        margin-bottom: 2vh; }
+        #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .traslado .traslado__img {
+          width: 4rem;
+          height: 4rem;
+          margin-left: 4vw; }
+        #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .traslado .traslado__text {
+          font-size: 1.5vw; }
+        #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .garantia {
+          margin-top: 2.5vh;
+          margin-bottom: 2vh; }
+          #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .garantia .garantia__img {
+            width: 4rem;
+            height: 4rem;
+            margin-left: 4vw; }
+          #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .garantia .garantia__text {
+            font-size: 1.5vw;
+            margin-top: 2vh; }
+        #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .aseguramos {
+          margin-bottom: 2vh; }
+          #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .aseguramos .aseguramos__img {
+            width: 4rem;
+            height: 4rem;
+            margin-left: 4vw; }
+          #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .aseguramos .aseguramos__text {
+            font-size: 1.5vw; } }

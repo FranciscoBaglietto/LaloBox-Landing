@@ -176,4 +176,87 @@
     
         }
     }
+    @media only screen and (min-width: 1200px){
+
+        .container{
+            
+            .contenedor__viviendas{
+                margin-bottom: -2vh;
+
+                .viviendas__titulo{
+                    font-size: 2vw;
+                    margin-top: 12vh;
+                    margin-left: 6vw;
+                }
+                .vivienda__text1{
+                    font-size: 3.5vw;
+                    margin-left: 6vw;
+    
+                }
+                .vivienda__text2{
+                    font-size: 2.4vw;
+                    margin-left: 6vw;
+                }
+                .vivienda__text3{
+                    font-size: 1.4vw;
+                    margin-left: 6vw;
+                    margin-top: 5vh;
+                    margin-bottom: 3vh;
+                }
+    
+            }
+    
+            .contenedor__metros{
+                margin-bottom: -2vh;
+
+                .img__tick{
+                    width: 3.7rem;
+                    height: 3.7rem;
+                    margin-left: 5vw;
+                }
+                .metros__text{
+                    font-size: 1.4vw;
+                }
+    
+            }
+            .contenedor__equipado{
+                margin-bottom: -2vh;
+
+                .img__equipado{
+                    width: 3.7rem;
+                    height: 3.7rem;
+                    margin-left: 5vw;
+                }
+                .equipado__text{
+                    font-size: 1.4vw;
+                }
+    
+            }
+            .contenedor__financiado{
+                margin-bottom: 3vh;
+
+                .img__financiado{
+                    width: 3.7rem;
+                    height: 3.7rem;
+                    margin-left: 5vw;
+                }
+                .financiado__text{
+                    font-size: 1.4vw;
+                }
+    
+            }
+            .contenedor__imagen{
+                
+                .viviendas__imagen{
+                    width: 100%;
+                    margin-left: 17vh;
+                    margin-top: -.5vh;
+    
+                }
+            }
+    
+        }
+
+    }
+    
 }
