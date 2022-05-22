@@ -59,7 +59,8 @@ body .cabecera {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  overflow: hidden; }
+  overflow: hidden;
+  padding-bottom: 13vh; }
   #home .home__sticker {
     position: relative; }
     #home .home__sticker img {
@@ -78,7 +79,7 @@ body .cabecera {
       color: #F6F6F6;
       font-size: 4.8vw;
       text-shadow: 3px 3px 3px black;
-      margin-top: 15vh;
+      margin-top: 25vh;
       font-family: jersey_m54; }
     #home .container .home__text2 {
       color: #F6F6F6;
@@ -101,7 +102,7 @@ body .cabecera {
     #home .container .home__text1 {
       font-size: 3vw;
       text-shadow: 3px 3px 3px black;
-      margin-top: 20vh;
+      margin-top: 28vh;
       margin-bottom: .5vh; }
     #home .container .home__text2 {
       font-size: 4vw;
