@@ -401,7 +401,7 @@ body .cabecera {
   #viviendas .container .contenedor__imagen {
     padding: 0; }
     #viviendas .container .contenedor__imagen .viviendas__imagen {
-      width: 107%;
+      width: 106%;
       margin: 0vh 0vw; }
   @media only screen and (min-width: 768px) {
     #viviendas {
