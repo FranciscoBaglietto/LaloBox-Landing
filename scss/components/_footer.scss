@@ -1,383 +1,240 @@
-#footer{
+.footer{
     background-color: black;
-    padding-top: 1vh;
 
-    .container{
+
+
+    .secciones__footer{
         
-        .seccion__contacto{
-            margin-left: 6vw;
-            
-            .contacto__titulo{
-                font-size: 6vw;
-                font-weight: bolder;
-                margin-top: 6vh;
-                margin-bottom: 2vh;
-                margin-left: 3vw;
-                border-bottom: 2px solid #FECF07;
-                border-radius: 1px;
-                width: fit-content;
-                font-family: museosans_900;
-                color: #FECF07;
-                opacity: .8;
-            }
-            .contacto__ubicacion{
-                opacity: .6;
 
-                .ubicacion__img{
-                    width: 1.2rem;
-                    height: 1.5rem;
-                    margin-right: 2vw;
-                    margin-left: 2.5vw;
-                }
-                .ubicacion__text{
-                    font-size: 5vw;
-                    color: #F6F6F6;
+        .secciones__footer--contacto{
+            margin-top: 30px;
+            margin-bottom: 30px;
+            
+            
+            .footer__titulo-contacto{
+                margin-left: 15%;
+                color: map-get($color, color-secundario);
+                font-family: museosans_900;
+                font-size: 20px;
+                border-bottom: 1px solid;
+                width: fit-content;
+                opacity: 0.8;
+
+            }
+            
+            .contacto__ubicacion{
+                margin-left: 15%;
+                opacity: 0.6;
+
+                .icono__ubicacion{
+                    width: 24px;
+                    height: 24px;
                     
                 }
-
+                .texto__footer{
+                    color: map-get($color, color-principal);
+                    margin-left: 10px;
+                }
             }
+
+
+
             .contacto__telefono{
-                opacity: .6;
+                margin-left: 15%;
+                opacity: 0.6;
 
-                .telefono__img{
-                    width: 1.5rem;
-                    height: 1.5rem;
-                    margin-right: 2vw;
-                    margin-left: 2.5vw;
+                .icono__telefono{
+                    width: 24px;
+                    height: 24px;
 
                 }
-                .telefono__text{
-                    font-size: 5vw;
-                    color: #F6F6F6;
+                .texto__footer{
+                    color: map-get($color, color-principal);
+                    margin-left: 10px;
                 }
+                    
             }
             .contacto__mail{
-                opacity: .6;
+                margin-left: 15%;
+                opacity: 0.6;
 
-                .mail__img{
-                    width: 1.5rem;
-                    height: 1.2rem;
-                    margin-right: 2vw;
-                    margin-left: 2.5vw;
+                .icono__mail{
+                    width: 24px;
+                    height: 24px;
+
                 }
-                .mail__text{
-                    font-size: 5vw;
-                    color: #F6F6F6;
+                .texto__footer{
+                    color: map-get($color, color-principal);
+                    margin-left: 10px;
                 }
+                    
             }
 
-        }
-        .redes__sociales{
-            margin-left: 6vw;
-            opacity: .6;
+            .redessociales{
+                margin-left: 14%;
+                opacity: 0.6;
 
-                .redes{
-                    width: 1.5rem;
-                    height: 1.5rem;
-                    margin-right: 2vw;
+                .icono__redes{
+                    width: 24px;
+                    height: 24px;
+                    margin-right: 5px;
                 }
-            
+            }
         }
-    }
-    .enlaces{
-        margin-left: 7vw;
 
-        .enlaces__titulo{
-            font-size: 6vw;
-            font-weight: bolder;
-            margin-top: 6vh;
-            margin-bottom: 2vh;
-            margin-left: 3vw;
-            border-bottom: 2px solid #FECF07;
-            border-radius: 1px;
-            width: fit-content;
+        .footer__titulo-enlaces{
+            margin-left: 15%;
+            color: map-get($color, color-secundario);
             font-family: museosans_900;
-            color: #FECF07;
-            opacity: .8;
+            font-size: 20px;
+            border-bottom: 1px solid;
+            width: fit-content;
+            opacity: 0.8;
         }
 
-        .footer__lista{
-            list-style: none;
-            padding: 0;
-            margin-left: 4vw;
-            opacity: .6;
+        .secciones__footer--link{
+            margin-top: 30px;
+            margin-bottom: 30px;
+            
 
-            .footer__lista-links{
-                margin-bottom: 1.5vh;
+            .footer__lista{
+                list-style: none;
+                margin-left: 30px;
+                
+                .footer__lista-links{
+                    margin-bottom: 3px;
+                    margin-left: 0px;
+                    font-size: 18px;
+                    opacity: 0.6;
+                }
+
                 .footer__link{
-                    font-size: 6vw;
                     text-decoration: none;
-                    color: #F6F6F6;
-                    
+                    color: map-get($color, color-principal);
+                    margin-top: 10px;
                 }
+                
             }
         }
-    }
-    .informacion{
-        
-
-        .informacion__titulo{
-            font-size: 6vw;
-            font-weight: bolder;
-            margin-top: 6vh;
-            margin-bottom: 2vh;
-            margin-left: 10vw;
-            border-bottom: 2px solid #FECF07;
-            border-radius: 1px;
-            width: fit-content;
+        .footer__titulo-formulario{
+            margin-left: 28%;
+            color: map-get($color, color-secundario);
             font-family: museosans_900;
-            color: #FECF07;
-            opacity: .8;
-
+            font-size: 20px;
+            border-bottom: 1px solid;
+            width: fit-content;
+            opacity: 0.8;
+            
+            
         }
-        .form{
-            .fomulario__texto{
-
-                .form__text{
-                    font-size: 5vw;
-                    color: #F6F6F6;
-                }
-                .form__boton{
-                    
-                }
-            }
-        }
-    }
-
-    @media only screen and (min-width: 768px){
         
-        .container{
-            margin-right: 100px;
 
-            .seccion__contacto{
-                margin-left: 1vw;
-                
-                .contacto__titulo{
-                    font-size: 2vw;
- 
-                }
-                .contacto__ubicacion{
-                    opacity: .6;
-    
-                    .ubicacion__img{
-                        width: 1.2rem;
-                        height: 1.5rem;
-                        margin-right: 2vw;
-                        margin-left: 2.5vw;
-                    }
-                    .ubicacion__text{
-                        font-size: 2vw;
-
-                        
-                    }
-    
-                }
-                .contacto__telefono{
-                    opacity: .6;
-    
-                    .telefono__img{
-                        width: 1.5rem;
-                        height: 1.5rem;
-                        margin-right: 2vw;
-                        margin-left: 2.5vw;
-    
-                    }
-                    .telefono__text{
-                        font-size: 2vw;
-
-                    }
-                }
-                .contacto__mail{
-                    opacity: .6;
-    
-                    .mail__img{
-                        width: 1.5rem;
-                        height: 1.2rem;
-                        margin-right: 2vw;
-                        margin-left: 2.5vw;
-                    }
-                    .mail__text{
-                        font-size: 2vw;
-
-                    }
-                }
-    
-            }
-            .redes__sociales{
-                margin-left: 1vw;
-                opacity: .6;
-    
-                    .redes{
-                        width: 1.5rem;
-                        height: 1.5rem;
-                        margin-right: 2vw;
-                    }
-                
-            }
-        }
-        .enlaces{
-            margin-left: 1vw;
-    
-            .enlaces__titulo{
-                font-size: 2vw;
-            }
-    
-            .footer__lista{
-                list-style: none;
-                padding: 0;
-                margin-left: 4vw;
-                opacity: .6;
-    
-                .footer__lista-links{
-                    margin-bottom: 1.5vh;
-
-                    .footer__link{
-                        font-size: 2vw;
-                        text-decoration: none;
-                        color: #F6F6F6;
-                        
-                    }
-                }
-            }
-        }
-        .informacion{
+        .secciones__footer--formulario{
+            margin-top: 30px;
+            margin-bottom: 30px;
+            text-align: center;
             
-    
-            .informacion__titulo{
-                font-size: 2vw;
 
-    
+            .form__text{
+                color: map-get($color, color-principal);
+                margin: 6px 0px 1px 0px
             }
-            .form{
-                .fomulario__texto{
-    
-                    .form__text{
-                        font-size: 5vw;
-                        color: #F6F6F6;
-                    }
-                    
-                }
+
+            .form__boton{
+                margin: 5px 0px;
             }
         }
     }
 
-    @media only screen and (min-width: 1200px){
-        .container{
-            
-            .seccion__contacto{
-                margin-left: 1vw;
-                
-                .contacto__titulo{
-                    font-size: 1.5vw;
- 
-                }
-                .contacto__ubicacion{
-                    opacity: .6;
-    
-                    .ubicacion__img{
-                        width: 1.2rem;
-                        height: 1.5rem;
-                        margin-right: 2vw;
-                        margin-left: 3vw;
-                    }
-                    .ubicacion__text{
-                        font-size: 1.5vw;
+    @media only screen and (max-width: 1024px) {
 
-                        
-                    }
-    
-                }
-                .contacto__telefono{
-                    opacity: .6;
-    
-                    .telefono__img{
-                        width: 1.5rem;
-                        height: 1.5rem;
-                        margin-right: 2vw;
-                        margin-left: 3vw;
-    
-                    }
-                    .telefono__text{
-                        font-size: 1.5vw;
+        .secciones__footer{
+            .secciones__footer--link{
+                .footer__lista{
+                    margin-left: 11px;
 
+                    .footer__lista-links{
+                        margin-left: 0px;
                     }
-                }
-                .contacto__mail{
-                    opacity: .6;
-    
-                    .mail__img{
-                        width: 1.5rem;
-                        height: 1.2rem;
-                        margin-right: 2vw;
-                        margin-left: 3vw;
-                        
-                    }
-                    .mail__text{
-                        font-size: 1.5vw;
 
-                    }
                 }
-    
+
             }
-            .redes__sociales{
-                margin-left: 2vw;
-                opacity: .6;
-    
-                    .redes{
-                        width: 1.5rem;
-                        height: 1.5rem;
-                        margin-right: 1vw;
-                        margin-left: .5vw;
-                    }
-                
+   
+
+            .footer__titulo-formulario{
+                margin-left: 20%;
             }
         }
-        .enlaces{
-            margin-left: 1vw;
-    
-            .enlaces__titulo{
-                font-size: 1.5vw;
-            }
-    
-            .footer__lista{
-                list-style: none;
-                padding: 0;
-                margin-left: 3vw;
-                opacity: .6;
-    
-                .footer__lista-links{
-                    margin-bottom: 1vh;
+        
 
-                    .footer__link{
-                        font-size: 1.5vw;
-                        text-decoration: none;
-                        color: #F6F6F6;
+    }
+    @media only screen and (max-width: 768px) {
+
+        .secciones__footer{
+
+            .footer__titulo-formulario{
+                margin-left: 8%;
+            }
+            .secciones__footer--link{
+
+                .footer__lista{
+                    margin-left: 0px;
+
+                    .footer__lista-links{
+                        margin-bottom: 4%;
                         
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+    @media only screen and (max-width: 390px) {
+
+        .secciones__footer{
+
+            .footer__titulo-contacto{
+                margin-left: 1%;
+            }
+            .secciones__footer--link{
+                .footer__lista{
+                    .footer__lista-links{
+                        margin-left: 1%;
+                    }
+
+                }
+            }
+
+            .footer__titulo-formulario{
+                margin-left: 15%;
+
+                .formulario__footer{
+                    .formulario__footer--nombre{
+                        display: inline-block;
                     }
                 }
             }
-        }
-        .informacion{
-            
-    
-            .informacion__titulo{
-                font-size: 1.5vw;
+            .secciones__footer--link{
 
-    
-            }
-            .form{
-                .fomulario__texto{
-    
-                    .form__text{
-                        font-size: 5vw;
-                        color: #F6F6F6;
+                .footer__lista{
+                    margin-left: 5.5%;
+
+                    .footer__lista-links{
+                        margin-bottom: 4%;
+
                     }
-                    .form__boton{
-                        
-                    }
+
                 }
+
             }
+   
+
         }
+
     }
 
 }

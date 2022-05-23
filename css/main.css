@@ -711,218 +711,117 @@ body .cabecera {
           #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .aseguramos .aseguramos__text {
             font-size: 1.5vw; } }
 
-#footer {
-  background-color: black;
-  padding-top: 1vh; }
-  #footer .container .seccion__contacto {
-    margin-left: 6vw; }
-    #footer .container .seccion__contacto .contacto__titulo {
-      font-size: 6vw;
-      font-weight: bolder;
-      margin-top: 6vh;
-      margin-bottom: 2vh;
-      margin-left: 3vw;
-      border-bottom: 2px solid #FECF07;
-      border-radius: 1px;
-      width: fit-content;
-      font-family: museosans_900;
+.footer {
+  background-color: black; }
+  .footer .secciones__footer .secciones__footer--contacto {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+    .footer .secciones__footer .secciones__footer--contacto .footer__titulo-contacto {
+      margin-left: 15%;
       color: #FECF07;
-      opacity: .8; }
-    #footer .container .seccion__contacto .contacto__ubicacion {
-      opacity: .6; }
-      #footer .container .seccion__contacto .contacto__ubicacion .ubicacion__img {
-        width: 1.2rem;
-        height: 1.5rem;
-        margin-right: 2vw;
-        margin-left: 2.5vw; }
-      #footer .container .seccion__contacto .contacto__ubicacion .ubicacion__text {
-        font-size: 5vw;
-        color: #F6F6F6; }
-    #footer .container .seccion__contacto .contacto__telefono {
-      opacity: .6; }
-      #footer .container .seccion__contacto .contacto__telefono .telefono__img {
-        width: 1.5rem;
-        height: 1.5rem;
-        margin-right: 2vw;
-        margin-left: 2.5vw; }
-      #footer .container .seccion__contacto .contacto__telefono .telefono__text {
-        font-size: 5vw;
-        color: #F6F6F6; }
-    #footer .container .seccion__contacto .contacto__mail {
-      opacity: .6; }
-      #footer .container .seccion__contacto .contacto__mail .mail__img {
-        width: 1.5rem;
-        height: 1.2rem;
-        margin-right: 2vw;
-        margin-left: 2.5vw; }
-      #footer .container .seccion__contacto .contacto__mail .mail__text {
-        font-size: 5vw;
-        color: #F6F6F6; }
-  #footer .container .redes__sociales {
-    margin-left: 6vw;
-    opacity: .6; }
-    #footer .container .redes__sociales .redes {
-      width: 1.5rem;
-      height: 1.5rem;
-      margin-right: 2vw; }
-  #footer .enlaces {
-    margin-left: 7vw; }
-    #footer .enlaces .enlaces__titulo {
-      font-size: 6vw;
-      font-weight: bolder;
-      margin-top: 6vh;
-      margin-bottom: 2vh;
-      margin-left: 3vw;
-      border-bottom: 2px solid #FECF07;
-      border-radius: 1px;
-      width: fit-content;
       font-family: museosans_900;
-      color: #FECF07;
-      opacity: .8; }
-    #footer .enlaces .footer__lista {
-      list-style: none;
-      padding: 0;
-      margin-left: 4vw;
-      opacity: .6; }
-      #footer .enlaces .footer__lista .footer__lista-links {
-        margin-bottom: 1.5vh; }
-        #footer .enlaces .footer__lista .footer__lista-links .footer__link {
-          font-size: 6vw;
-          text-decoration: none;
-          color: #F6F6F6; }
-  #footer .informacion .informacion__titulo {
-    font-size: 6vw;
-    font-weight: bolder;
-    margin-top: 6vh;
-    margin-bottom: 2vh;
-    margin-left: 10vw;
-    border-bottom: 2px solid #FECF07;
-    border-radius: 1px;
-    width: fit-content;
-    font-family: museosans_900;
+      font-size: 20px;
+      border-bottom: 1px solid;
+      width: fit-content;
+      opacity: 0.8; }
+    .footer .secciones__footer .secciones__footer--contacto .contacto__ubicacion {
+      margin-left: 15%;
+      opacity: 0.6; }
+      .footer .secciones__footer .secciones__footer--contacto .contacto__ubicacion .icono__ubicacion {
+        width: 24px;
+        height: 24px; }
+      .footer .secciones__footer .secciones__footer--contacto .contacto__ubicacion .texto__footer {
+        color: #F6F6F6;
+        margin-left: 10px; }
+    .footer .secciones__footer .secciones__footer--contacto .contacto__telefono {
+      margin-left: 15%;
+      opacity: 0.6; }
+      .footer .secciones__footer .secciones__footer--contacto .contacto__telefono .icono__telefono {
+        width: 24px;
+        height: 24px; }
+      .footer .secciones__footer .secciones__footer--contacto .contacto__telefono .texto__footer {
+        color: #F6F6F6;
+        margin-left: 10px; }
+    .footer .secciones__footer .secciones__footer--contacto .contacto__mail {
+      margin-left: 15%;
+      opacity: 0.6; }
+      .footer .secciones__footer .secciones__footer--contacto .contacto__mail .icono__mail {
+        width: 24px;
+        height: 24px; }
+      .footer .secciones__footer .secciones__footer--contacto .contacto__mail .texto__footer {
+        color: #F6F6F6;
+        margin-left: 10px; }
+    .footer .secciones__footer .secciones__footer--contacto .redessociales {
+      margin-left: 14%;
+      opacity: 0.6; }
+      .footer .secciones__footer .secciones__footer--contacto .redessociales .icono__redes {
+        width: 24px;
+        height: 24px;
+        margin-right: 5px; }
+  .footer .secciones__footer .footer__titulo-enlaces {
+    margin-left: 15%;
     color: #FECF07;
-    opacity: .8; }
-  #footer .informacion .form .fomulario__texto .form__text {
-    font-size: 5vw;
-    color: #F6F6F6; }
-  @media only screen and (min-width: 768px) {
-    #footer .container {
-      margin-right: 100px; }
-      #footer .container .seccion__contacto {
-        margin-left: 1vw; }
-        #footer .container .seccion__contacto .contacto__titulo {
-          font-size: 2vw; }
-        #footer .container .seccion__contacto .contacto__ubicacion {
-          opacity: .6; }
-          #footer .container .seccion__contacto .contacto__ubicacion .ubicacion__img {
-            width: 1.2rem;
-            height: 1.5rem;
-            margin-right: 2vw;
-            margin-left: 2.5vw; }
-          #footer .container .seccion__contacto .contacto__ubicacion .ubicacion__text {
-            font-size: 2vw; }
-        #footer .container .seccion__contacto .contacto__telefono {
-          opacity: .6; }
-          #footer .container .seccion__contacto .contacto__telefono .telefono__img {
-            width: 1.5rem;
-            height: 1.5rem;
-            margin-right: 2vw;
-            margin-left: 2.5vw; }
-          #footer .container .seccion__contacto .contacto__telefono .telefono__text {
-            font-size: 2vw; }
-        #footer .container .seccion__contacto .contacto__mail {
-          opacity: .6; }
-          #footer .container .seccion__contacto .contacto__mail .mail__img {
-            width: 1.5rem;
-            height: 1.2rem;
-            margin-right: 2vw;
-            margin-left: 2.5vw; }
-          #footer .container .seccion__contacto .contacto__mail .mail__text {
-            font-size: 2vw; }
-      #footer .container .redes__sociales {
-        margin-left: 1vw;
-        opacity: .6; }
-        #footer .container .redes__sociales .redes {
-          width: 1.5rem;
-          height: 1.5rem;
-          margin-right: 2vw; }
-    #footer .enlaces {
-      margin-left: 1vw; }
-      #footer .enlaces .enlaces__titulo {
-        font-size: 2vw; }
-      #footer .enlaces .footer__lista {
-        list-style: none;
-        padding: 0;
-        margin-left: 4vw;
-        opacity: .6; }
-        #footer .enlaces .footer__lista .footer__lista-links {
-          margin-bottom: 1.5vh; }
-          #footer .enlaces .footer__lista .footer__lista-links .footer__link {
-            font-size: 2vw;
-            text-decoration: none;
-            color: #F6F6F6; }
-    #footer .informacion .informacion__titulo {
-      font-size: 2vw; }
-    #footer .informacion .form .fomulario__texto .form__text {
-      font-size: 5vw;
-      color: #F6F6F6; } }
-  @media only screen and (min-width: 1200px) {
-    #footer .container .seccion__contacto {
-      margin-left: 1vw; }
-      #footer .container .seccion__contacto .contacto__titulo {
-        font-size: 1.5vw; }
-      #footer .container .seccion__contacto .contacto__ubicacion {
-        opacity: .6; }
-        #footer .container .seccion__contacto .contacto__ubicacion .ubicacion__img {
-          width: 1.2rem;
-          height: 1.5rem;
-          margin-right: 2vw;
-          margin-left: 3vw; }
-        #footer .container .seccion__contacto .contacto__ubicacion .ubicacion__text {
-          font-size: 1.5vw; }
-      #footer .container .seccion__contacto .contacto__telefono {
-        opacity: .6; }
-        #footer .container .seccion__contacto .contacto__telefono .telefono__img {
-          width: 1.5rem;
-          height: 1.5rem;
-          margin-right: 2vw;
-          margin-left: 3vw; }
-        #footer .container .seccion__contacto .contacto__telefono .telefono__text {
-          font-size: 1.5vw; }
-      #footer .container .seccion__contacto .contacto__mail {
-        opacity: .6; }
-        #footer .container .seccion__contacto .contacto__mail .mail__img {
-          width: 1.5rem;
-          height: 1.2rem;
-          margin-right: 2vw;
-          margin-left: 3vw; }
-        #footer .container .seccion__contacto .contacto__mail .mail__text {
-          font-size: 1.5vw; }
-    #footer .container .redes__sociales {
-      margin-left: 2vw;
-      opacity: .6; }
-      #footer .container .redes__sociales .redes {
-        width: 1.5rem;
-        height: 1.5rem;
-        margin-right: 1vw;
-        margin-left: .5vw; }
-    #footer .enlaces {
-      margin-left: 1vw; }
-      #footer .enlaces .enlaces__titulo {
-        font-size: 1.5vw; }
-      #footer .enlaces .footer__lista {
-        list-style: none;
-        padding: 0;
-        margin-left: 3vw;
-        opacity: .6; }
-        #footer .enlaces .footer__lista .footer__lista-links {
-          margin-bottom: 1vh; }
-          #footer .enlaces .footer__lista .footer__lista-links .footer__link {
-            font-size: 1.5vw;
-            text-decoration: none;
-            color: #F6F6F6; }
-    #footer .informacion .informacion__titulo {
-      font-size: 1.5vw; }
-    #footer .informacion .form .fomulario__texto .form__text {
-      font-size: 5vw;
-      color: #F6F6F6; } }
+    font-family: museosans_900;
+    font-size: 20px;
+    border-bottom: 1px solid;
+    width: fit-content;
+    opacity: 0.8; }
+  .footer .secciones__footer .secciones__footer--link {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+    .footer .secciones__footer .secciones__footer--link .footer__lista {
+      list-style: none;
+      margin-left: 30px; }
+      .footer .secciones__footer .secciones__footer--link .footer__lista .footer__lista-links {
+        margin-bottom: 3px;
+        margin-left: 0px;
+        font-size: 18px;
+        opacity: 0.6; }
+      .footer .secciones__footer .secciones__footer--link .footer__lista .footer__link {
+        text-decoration: none;
+        color: #F6F6F6;
+        margin-top: 10px; }
+  .footer .secciones__footer .footer__titulo-formulario {
+    margin-left: 28%;
+    color: #FECF07;
+    font-family: museosans_900;
+    font-size: 20px;
+    border-bottom: 1px solid;
+    width: fit-content;
+    opacity: 0.8; }
+  .footer .secciones__footer .secciones__footer--formulario {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center; }
+    .footer .secciones__footer .secciones__footer--formulario .form__text {
+      color: #F6F6F6;
+      margin: 6px 0px 1px 0px; }
+    .footer .secciones__footer .secciones__footer--formulario .form__boton {
+      margin: 5px 0px; }
+  @media only screen and (max-width: 1024px) {
+    .footer .secciones__footer .secciones__footer--link .footer__lista {
+      margin-left: 11px; }
+      .footer .secciones__footer .secciones__footer--link .footer__lista .footer__lista-links {
+        margin-left: 0px; }
+    .footer .secciones__footer .footer__titulo-formulario {
+      margin-left: 20%; } }
+  @media only screen and (max-width: 768px) {
+    .footer .secciones__footer .footer__titulo-formulario {
+      margin-left: 8%; }
+    .footer .secciones__footer .secciones__footer--link .footer__lista {
+      margin-left: 0px; }
+      .footer .secciones__footer .secciones__footer--link .footer__lista .footer__lista-links {
+        margin-bottom: 4%; } }
+  @media only screen and (max-width: 390px) {
+    .footer .secciones__footer .footer__titulo-contacto {
+      margin-left: 1%; }
+    .footer .secciones__footer .secciones__footer--link .footer__lista .footer__lista-links {
+      margin-left: 1%; }
+    .footer .secciones__footer .footer__titulo-formulario {
+      margin-left: 15%; }
+      .footer .secciones__footer .footer__titulo-formulario .formulario__footer .formulario__footer--nombre {
+        display: inline-block; }
+    .footer .secciones__footer .secciones__footer--link .footer__lista {
+      margin-left: 5.5%; }
+      .footer .secciones__footer .secciones__footer--link .footer__lista .footer__lista-links {
+        margin-bottom: 4%; } }
