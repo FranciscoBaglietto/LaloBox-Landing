@@ -114,7 +114,7 @@ body .cabecera {
     #home {
       padding-bottom: 6.2rem; }
       #home .home__sticker img {
-        margin-top: -4rem; }
+        margin-top: -6rem; }
       #home .container .home__text1 {
         font-size: 1.5rem;
         text-shadow: 3px 3px 3px black;
@@ -126,7 +126,7 @@ body .cabecera {
         font-size: .8rem; } }
   @media only screen and (min-width: 1200px) {
     #home .home__sticker img {
-      margin-top: -8rem; } }
+      margin-top: -10rem; } }
 
 #nosotros {
   background-color: #F6F6F6; }
