@@ -126,7 +126,7 @@ body .cabecera {
         font-size: .8rem; } }
   @media only screen and (min-width: 1200px) {
     #home .home__sticker img {
-      margin-top: -7rem; } }
+      margin-top: -8rem; } }
 
 #nosotros {
   background-color: #F6F6F6; }
@@ -224,85 +224,87 @@ body .cabecera {
     #nosotros .container .contenedor__caracteristicas .entrega .entrega__text {
       font-size: 1.8vw; } }
   @media only screen and (min-width: 1024px) {
-    #nosotros .container .nosotros__imagen {
-      margin-top: -.1rem;
-      width: 90%;
-      margin-left: 6vw; }
-    #nosotros .container .contenedor_nosotros .nosotros_titulo {
-      font-size: 1.4rem;
-      margin-top: 5rem;
-      margin-left: 4rem; }
-    #nosotros .container .contenedor_nosotros .nosotros__texto {
-      font-size: 1rem;
-      margin-bottom: .8rem;
-      margin-top: 4rem;
-      margin-left: 4rem; }
-    #nosotros .container .contenedor__caracteristicas {
-      gap: 14%; }
-      #nosotros .container .contenedor__caracteristicas .compromiso-fabrica {
-        margin-left: 2rem; }
-        #nosotros .container .contenedor__caracteristicas .compromiso-fabrica .compromiso .compromiso__img {
-          width: 3.5rem;
-          height: 3.5rem; }
-        #nosotros .container .contenedor__caracteristicas .compromiso-fabrica .compromiso .compromiso__text {
-          font-size: 1rem; }
-        #nosotros .container .contenedor__caracteristicas .compromiso-fabrica .fabrica .fabrica__img {
-          width: 3.5rem;
-          height: 3.5rem; }
-        #nosotros .container .contenedor__caracteristicas .compromiso-fabrica .fabrica .fabrica__text {
-          font-size: 1rem;
-          margin-top: 1rem; }
-      #nosotros .container .contenedor__caracteristicas .calidad-entrega .calidad__img {
-        width: 3.5rem;
-        height: 3.5rem; }
-      #nosotros .container .contenedor__caracteristicas .calidad-entrega .calidad__text {
+    #nosotros .container {
+      margin: 0; }
+      #nosotros .container .nosotros__imagen {
+        margin-top: -.1rem;
+        width: 90%;
+        margin-left: 6vw; }
+      #nosotros .container .contenedor_nosotros .nosotros_titulo {
+        font-size: 1.4rem;
+        margin-top: 4rem;
+        margin-left: 4rem; }
+      #nosotros .container .contenedor_nosotros .nosotros__texto {
         font-size: 1rem;
-        margin-top: 1.5rem; }
-      #nosotros .container .contenedor__caracteristicas .entrega .entrega__img {
-        width: 3.5rem;
-        height: 3.5rem; }
-      #nosotros .container .contenedor__caracteristicas .entrega .entrega__text {
-        font-size: 1rem; } }
+        margin-bottom: .8rem;
+        margin-top: 4rem;
+        margin-left: 4rem; }
+      #nosotros .container .contenedor__caracteristicas {
+        gap: 14%; }
+        #nosotros .container .contenedor__caracteristicas .compromiso-fabrica {
+          margin-left: 2rem; }
+          #nosotros .container .contenedor__caracteristicas .compromiso-fabrica .compromiso .compromiso__img {
+            width: 3.5rem;
+            height: 3.5rem; }
+          #nosotros .container .contenedor__caracteristicas .compromiso-fabrica .compromiso .compromiso__text {
+            font-size: 1rem; }
+          #nosotros .container .contenedor__caracteristicas .compromiso-fabrica .fabrica .fabrica__img {
+            width: 3.5rem;
+            height: 3.5rem; }
+          #nosotros .container .contenedor__caracteristicas .compromiso-fabrica .fabrica .fabrica__text {
+            font-size: 1rem;
+            margin-top: 1rem; }
+        #nosotros .container .contenedor__caracteristicas .calidad-entrega .calidad__img {
+          width: 3.5rem;
+          height: 3.5rem; }
+        #nosotros .container .contenedor__caracteristicas .calidad-entrega .calidad__text {
+          font-size: 1rem;
+          margin-top: 1.5rem; }
+        #nosotros .container .contenedor__caracteristicas .entrega .entrega__img {
+          width: 3.5rem;
+          height: 3.5rem; }
+        #nosotros .container .contenedor__caracteristicas .entrega .entrega__text {
+          font-size: 1rem; } }
   @media only screen and (min-width: 1200px) {
     #nosotros .container .nosotros__imagen {
       margin-top: -.15rem;
-      width: 85%;
-      margin-left: 6vw; }
+      width: 90%;
+      margin-left: 7vw; }
     #nosotros .container .contenedor_nosotros .nosotros_titulo {
       font-size: 1.7rem;
-      margin-top: 6rem;
-      margin-left: 5rem; }
+      margin-top: 4rem;
+      margin-left: 7rem; }
     #nosotros .container .contenedor_nosotros .nosotros__texto {
       font-size: 1.2rem;
       margin-bottom: .8rem;
       margin-top: 5rem;
-      margin-left: 5rem; }
+      margin-left: 7rem; }
     #nosotros .container .contenedor__caracteristicas {
       gap: 14%; }
       #nosotros .container .contenedor__caracteristicas .compromiso-fabrica {
-        margin-left: 2.5rem; }
+        margin-left: 4.5rem; }
         #nosotros .container .contenedor__caracteristicas .compromiso-fabrica .compromiso .compromiso__img {
           width: 3.5rem;
           height: 3.5rem; }
         #nosotros .container .contenedor__caracteristicas .compromiso-fabrica .compromiso .compromiso__text {
-          font-size: 1.2rem; }
+          font-size: 1.1rem; }
         #nosotros .container .contenedor__caracteristicas .compromiso-fabrica .fabrica .fabrica__img {
           width: 3.5rem;
           height: 3.5rem; }
         #nosotros .container .contenedor__caracteristicas .compromiso-fabrica .fabrica .fabrica__text {
-          font-size: 1.2rem;
+          font-size: 1.1rem;
           margin-top: 1rem; }
       #nosotros .container .contenedor__caracteristicas .calidad-entrega .calidad__img {
         width: 3.5rem;
         height: 3.5rem; }
       #nosotros .container .contenedor__caracteristicas .calidad-entrega .calidad__text {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         margin-top: 1.5rem; }
       #nosotros .container .contenedor__caracteristicas .entrega .entrega__img {
         width: 3.5rem;
         height: 3.5rem; }
       #nosotros .container .contenedor__caracteristicas .entrega .entrega__text {
-        font-size: 1.2rem; } }
+        font-size: 1.1rem; } }
 
 #modelos {
   background-color: black; }
