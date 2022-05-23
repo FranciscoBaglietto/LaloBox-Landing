@@ -86,31 +86,46 @@
         
     }
 
-    @media only screen and (min-width: 1200px){
-        padding-bottom: 13vh;
+    
+
+    @media only screen and (min-width: 1024px){
+        padding-bottom: 6.2rem;
+
         .home__sticker{
 
             & img{
-                margin-top: -15vh;
+                margin-top: -4rem;
             }
 
         }
         .container{
     
             .home__text1{
-                font-size: 2.5vw;
+                font-size: 1.5rem;
                 text-shadow: 3px 3px 3px black;
-                margin-top: 35vh;
-                margin-bottom: .5vh;
+                margin-top: 15rem;
+                margin-bottom: .5rem;
             }
             .home__text2{
-                font-size: 3.5vw;
+                font-size: 2.5rem;
             }
             .home__boton{
-                font-size: 1.1vw;
-                padding: .1vh .5vw;
+                font-size: .8rem;
+                
             }
         }
+
+    }
+    @media only screen and (min-width: 1200px){
+
+        .home__sticker{
+
+            & img{
+                margin-top: -7rem;
+            }
+
+        }
+
 
     }
 
