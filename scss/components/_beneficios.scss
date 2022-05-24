@@ -249,17 +249,16 @@
             }
         }
     }
-    @media only screen and (min-width: 1200px){
+    @media only screen and (min-width: 1024px){
 
         .container{
             
             .contenedor__imagen{
     
                 .beneficio__img{
-                    margin: 0 4vw;
-                    margin-top: -.4vh;
-                    width: 90%;
-                    margin-left: 6vw;
+                    margin-top: -.2rem;
+                    width: 100%;
+                    margin-left: 4rem;
                 
                 }
             }
@@ -269,60 +268,62 @@
                 .contenedor__textos{
     
                     .beneficio__titulo{ 
-                        font-size: 4vw;
-                        margin-left: 1.5vw;
-                        margin-top: 8vh;
+                        font-size: 3rem;
+                        margin-left: 5rem;
+                        margin-top: 2.5rem;
         
                     }
                     .beneficio__text{
-                        font-size: 3vw;
-                        margin-left: 1.5vw;
-                        margin-bottom: 10vh;
+                        font-size: 2rem;
+                        margin-left: 5rem;
+                        margin-bottom: 2rem;
 
                     }
                 }
                 
                 .contenedor__beneficios{
-                    margin-top: 7vh;
-                    margin-bottom: 6vh;
+                    margin-top: 2rem;
+                    margin-bottom: 2rem;
                     
                     .contenedor__mantenimiento{
                         
                         .mantenimiento{
-                            margin-bottom: 2vh;
+                            margin-bottom: 1rem;
                             .mantenimiento__img{
                                 width: 4rem;
                                 height: 4rem;
-                                margin-left: 4vw;
+                                margin-left: 4rem;
                             }
                             .mantenimiento__text{
-                                font-size: 1.5vw;
-                                margin-top: 2vh;
+                                font-size: 1rem;
+                                margin-top: .5rem;
                                 
                             }
                             
                         }
                         .construccion{
-                            margin-bottom: 2vh;
+                            margin-bottom: 1rem;
                             .construccion__img{
                                 width: 4rem;
                                 height: 4rem;
-                                margin-left: 4vw;
+                                margin-left: 4rem;
                             }
                             .construccion__text{
-                                font-size: 1.5vw;
+                                font-size: 1rem;
+                                margin-top: .5rem;
                                 
                             }
                         }
                         .recupero{
-                            margin-bottom: 2vh;
+                            margin-bottom: 1rem;
                             .recupero__img{
                                 width: 4rem;
                                 height: 4rem;
-                                margin-left: 4vw;
+                                margin-left: 4rem;
                             }
                             .recupero__text{
-                                font-size: 1.5vw;
+                                font-size: 1rem;
+                                margin-top: .5rem;
                                 
                             }
                         }
@@ -331,42 +332,183 @@
                     }
                     
                     .contenedor__traslado{
-                        margin-bottom: 2vh;
+                        margin-bottom: 1rem;
                         .traslado{
                             
                             .traslado__img{
                                 width: 4rem;
                                 height: 4rem;
-                                margin-left: 4vw;
+                                margin-left: 3rem;
                             }
                             .traslado__text{
-                                font-size: 1.5vw;
+                                font-size: 1rem;
+                                margin-top: 1.5rem;
                                 
                             }
                         }
                         .garantia{
-                            margin-top: 2.5vh;
-                            margin-bottom: 2vh;
+                            margin-top: 1.5rem;
+                            
                             .garantia__img{
                                 width: 4rem;
                                 height: 4rem;
-                                margin-left: 4vw;
+                                margin-left: 3rem;
                             }
                             .garantia__text{
-                                font-size: 1.5vw;
-                                margin-top: 2vh;
+                                font-size: 1rem;
+                                margin-top: .5rem;
                                 
                             }
                         }
                         .aseguramos{
-                            margin-bottom: 2vh;
+                            margin-top: 1rem;
                             .aseguramos__img{
                                 width: 4rem;
                                 height: 4rem;
-                                margin-left: 4vw;
+                                margin-left: 3rem;
                             }
                             .aseguramos__text{
-                                font-size: 1.5vw;
+                                font-size: 1rem;
+                                margin-top: .6rem;
+                                
+                            }
+                        }
+                        
+                    }
+                    
+                }
+    
+    
+            }
+        }
+    }
+    @media only screen and (min-width: 1200px){
+
+        .container{
+            
+            .contenedor__imagen{
+    
+                .beneficio__img{
+                    margin-top: -.2rem;
+                    width: 100%;
+                    margin-left: 4rem;
+                
+                }
+            }
+    
+            .beneficio__contenedor{
+
+                .contenedor__textos{
+    
+                    .beneficio__titulo{ 
+                        font-size: 3rem;
+                        margin-left: 6rem;
+                        margin-top: 3rem;
+        
+                    }
+                    .beneficio__text{
+                        font-size: 2rem;
+                        margin-left: 6rem;
+                        margin-bottom: 7rem;
+
+                    }
+                }
+                
+                .contenedor__beneficios{
+                    margin-top: 2rem;
+                    margin-bottom: 2rem;
+                    
+                    .contenedor__mantenimiento{
+                        
+                        .mantenimiento{
+                            margin-bottom: 1rem;
+                            .mantenimiento__img{
+                                width: 4rem;
+                                height: 4rem;
+                                margin-left: 7rem;
+                            }
+                            .mantenimiento__text{
+                                margin-top: .5rem;
+                                font-weight: bold;
+                                margin-top: 1.5rem;
+                                
+                            }
+                            
+                        }
+                        .construccion{
+                            margin-bottom: 1rem;
+                            .construccion__img{
+                                width: 4rem;
+                                height: 4rem;
+                                margin-left: 7rem;
+                            }
+                            .construccion__text{
+                                font-size: 1.1rem;
+                                margin-top: .5rem;
+                                font-weight: bold;
+                                
+                            }
+                        }
+                        .recupero{
+                            margin-bottom: 1rem;
+                            .recupero__img{
+                                width: 4rem;
+                                height: 4rem;
+                                margin-left: 7rem;
+                            }
+                            .recupero__text{
+                                margin-top: .5rem;
+                                font-weight: bold;
+                                margin-top: 1.2rem;
+                                
+                            }
+                        }
+                        
+                        
+                    }
+                    
+                    .contenedor__traslado{
+                        margin-bottom: 1rem;
+                        .traslado{
+                            
+                            .traslado__img{
+                                width: 4rem;
+                                height: 4rem;
+                                margin-left: 3rem;
+                            }
+                            .traslado__text{
+                                margin-top: .5rem;
+                                font-weight: bold;
+                                margin-top: 1.5rem;
+                                
+                            }
+                        }
+                        .garantia{
+                            margin-top: 2.5rem;
+                            
+                            .garantia__img{
+                                width: 4rem;
+                                height: 4rem;
+                                margin-left: 3rem;
+                            }
+                            .garantia__text{
+                                margin-top: .5rem;
+                                font-weight: bold;
+                                margin-top: .5rem;
+                                
+                            }
+                        }
+                        .aseguramos{
+                            margin-top: 1.5rem;
+                            .aseguramos__img{
+                                width: 4rem;
+                                height: 4rem;
+                                margin-left: 3rem;
+                            }
+                            .aseguramos__text{
+                                margin-top: .5rem;
+                                font-weight: bold;
+                                margin-top: .6rem;
                                 
                             }
                         }
