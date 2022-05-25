@@ -1020,3 +1020,92 @@ body .cabecera {
       margin-left: 5.5%; }
       .footer .secciones__footer .secciones__footer--link .footer__lista .footer__lista-links {
         margin-bottom: 4%; } }
+
+#contacto {
+  background-color: black;
+  overflow: hidden; }
+  #contacto .contacto__titulo {
+    color: #FECF07;
+    font-family: museosans_900;
+    font-size: 35px;
+    margin-top: 40px; }
+  #contacto .contacto__titulo--texto {
+    font-family: museosans_900;
+    font-size: 22px;
+    margin-top: 50px;
+    color: #F6F6F6; }
+  #contacto .contacto__consultas {
+    gap: 15%;
+    margin-top: 70px; }
+    #contacto .contacto__consultas .contacto__img--ubicacion {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 10px;
+      border-radius: 50%; }
+    #contacto .contacto__consultas .contacto__ubicacion--text {
+      color: #F6F6F6;
+      font-family: museosans_900; }
+    #contacto .contacto__consultas .contacto__email--text {
+      color: #F6F6F6;
+      font-family: museosans_900; }
+    #contacto .contacto__consultas .contacto__img--email {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 10px;
+      border-radius: 50%; }
+  #contacto .contacto__consulta {
+    color: #F6F6F6;
+    font-family: museosans_900;
+    font-size: 25px;
+    border-bottom: 4px solid #FECF07;
+    width: fit-content;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 26%; }
+  #contacto .formulario__contacto {
+    margin-left: 25%;
+    margin-right: 30px; }
+    #contacto .formulario__contacto .form-label {
+      color: #F6F6F6;
+      font-size: 20px; }
+    #contacto .formulario__contacto .form-control {
+      width: 70%;
+      height: 2.5rem;
+      opacity: 0.9; }
+    #contacto .formulario__contacto .textarea {
+      height: fit-content; }
+    #contacto .formulario__contacto .form__boton-contacto {
+      margin-left: 25%;
+      margin-bottom: 10%;
+      width: 100px;
+      height: 30px;
+      border-radius: 8px;
+      opacity: 0.9; }
+  @media only screen and (max-width: 1024px) {
+    #contacto .formulario__contacto .form__boton-contacto {
+      margin-left: 22%; } }
+  @media only screen and (max-width: 768px) {
+    #contacto .formulario__contacto .form__boton-contacto {
+      margin-left: 19%; } }
+  @media only screen and (max-width: 390px) {
+    #contacto .contacto__consulta {
+      margin-top: 15%;
+      margin-bottom: 10%;
+      margin-left: 10%; }
+    #contacto .formulario__contacto {
+      margin-left: 9%;
+      margin-right: 0px; }
+      #contacto .formulario__contacto .form-label {
+        color: #F6F6F6;
+        font-size: 20px; }
+      #contacto .formulario__contacto .form-control {
+        width: 90%; }
+      #contacto .formulario__contacto .form__boton-contacto {
+        margin-left: 22%;
+        margin-bottom: 15%; } }
+  @media only screen and (max-width: 375px) {
+    #contacto .formulario__contacto .form__boton-contacto {
+      margin-left: 20%; } }
+  @media only screen and (max-width: 320px) {
+    #contacto .formulario__contacto .form__boton-contacto {
+      margin-left: 18%; } }
