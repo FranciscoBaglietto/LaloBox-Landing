@@ -881,7 +881,7 @@ body .cabecera {
     margin-left: 20%; }
   #viviendas .container .contenedor__metros {
     margin-bottom: -1rem;
-    margin-left: 16%; }
+    margin-left: 17%; }
     #viviendas .container .contenedor__metros .img__tick {
       width: 3.5rem;
       height: 3.5rem;
@@ -893,7 +893,7 @@ body .cabecera {
       font-weight: bold; }
   #viviendas .container .contenedor__equipado {
     margin-bottom: -1rem;
-    margin-left: 16%; }
+    margin-left: 17%; }
     #viviendas .container .contenedor__equipado .img__equipado {
       width: 3.5rem;
       height: 3.5rem; }
@@ -904,7 +904,7 @@ body .cabecera {
       font-weight: bold; }
   #viviendas .container .contenedor__financiado {
     margin-bottom: 0;
-    margin-left: 16%; }
+    margin-left: 17%; }
     #viviendas .container .contenedor__financiado .img__financiado {
       width: 3.5rem;
       height: 3.5rem;
@@ -1183,18 +1183,18 @@ body .cabecera {
   @media only screen and (min-width: 1200px) {
     #beneficios .container .contenedor__imagen .beneficio__img {
       margin-top: -.2rem;
-      width: 100%;
+      width: 90%;
       margin-left: 4rem; }
     #beneficios .container .beneficio__contenedor {
       margin-left: 0; }
       #beneficios .container .beneficio__contenedor .contenedor__textos .beneficio__titulo {
         font-size: 3rem;
         margin-left: 6rem;
-        margin-top: 3rem; }
+        margin-top: 4rem; }
       #beneficios .container .beneficio__contenedor .contenedor__textos .beneficio__text {
         font-size: 2rem;
         margin-left: 6rem;
-        margin-bottom: 7rem; }
+        margin-bottom: 3rem; }
       #beneficios .container .beneficio__contenedor .contenedor__beneficios {
         margin-top: 2rem;
         margin-bottom: 2rem; }
@@ -1205,9 +1205,8 @@ body .cabecera {
             height: 4rem;
             margin-left: 7rem; }
           #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__mantenimiento .mantenimiento .mantenimiento__text {
-            margin-top: .5rem;
             font-weight: bold;
-            margin-top: 1.5rem; }
+            margin-top: 1rem; }
         #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__mantenimiento .construccion {
           margin-bottom: 1rem; }
           #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__mantenimiento .construccion .construccion__img {
@@ -1245,9 +1244,8 @@ body .cabecera {
               height: 4rem;
               margin-left: 3rem; }
             #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .garantia .garantia__text {
-              margin-top: .5rem;
               font-weight: bold;
-              margin-top: .5rem; }
+              margin-top: 1rem; }
           #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .aseguramos {
             margin-top: 1.5rem; }
             #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .aseguramos .aseguramos__img {
