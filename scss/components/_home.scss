@@ -17,6 +17,7 @@
             width: 30vw;
             position: absolute;
             top: 5vh;
+            left: -50vw;
         }
 
     }
@@ -38,12 +39,13 @@
             text-shadow: 3px 3px 3px black;
             margin-top: 25vh;
             font-family: jersey_m54;
+            
         }
         
 
         .home__text2{
             color: #F6F6F6;
-            font-size: 5.5vw;
+            font-size: 5.3vw;
             text-shadow: 3px 3px 3px black;
             font-family: jersey_m54;
         }
@@ -126,7 +128,7 @@
                 margin-bottom: .5rem;
             }
             .home__text2{
-                font-size: 2.5rem;
+                font-size: 2.8rem;
             }
             .home__boton{
                 font-size: .8rem;

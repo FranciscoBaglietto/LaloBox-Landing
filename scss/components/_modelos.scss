@@ -1,16 +1,16 @@
 #modelos{
     background-color: black;
+    overflow: hidden;
 
     .container{
         margin-right: 0px;
         .contenedor__modelos{
+            margin-left: 5%;
 
             .modelos__titulo{
-                font-size: 6vw;
+                font-size: 1.3rem;
                 font-weight: bolder;
-                margin-top: 6vh;
-                margin-bottom: 2vh;
-                margin-left: 3vw;
+                margin-top: 10%;
                 border-bottom: 2px solid #FECF07;
                 border-radius: 1px;
                 width: fit-content;
@@ -19,25 +19,22 @@
             }
 
             .modelos__text1{
-                font-size: 9vw;
-                margin-top: 8vh;
-                margin-bottom: 0vh;
+                font-size: 2.5rem;
+                line-height: 100%;
+                margin-top: 15%;
                 color: #F6F6F6;
                 font-family: jersey_m54;
-                margin-left: 3vw;
             }
             .modelos__text2{
-                font-size: 4.5vw;
+                font-size: 1.1rem;
                 color: #F6F6F6;
-                margin-left: 3vw;
                 font-family:  museosans-700italic;
             }
             .modelos__text3{
-                font-size: 4.5vw;
+                font-size: 1.1rem;
                 color: #F6F6F6;
-                margin-left: 3vw;
                 font-family: museosans_100;
-                margin-top: 5vh;
+                margin-top: 10%;
             }
         
         }
@@ -52,9 +49,9 @@
             }
 
             .carousel{
-                margin: 0 3vw;
+                margin: 0 5%;
                 width: 100%;
-                margin-bottom: 4vh;
+                margin-bottom: 3rem;
             }
         }
 
@@ -64,29 +61,48 @@
     @media only screen and (min-width: 768px){
 
         .container{
+            padding: 0%;
+            margin-right: 0px;
             .contenedor__modelos{
+                margin-left: 0;
     
                 .modelos__titulo{
-                    font-size: 2.5vw;
-                    margin-left: 4vw;
+                    font-size: 1.3rem;
+                    font-weight: bolder;
+                    margin-top: 10%;
+                    border-bottom: 2px solid #FECF07;
+                    border-radius: 1px;
+                    width: fit-content;
+                    font-family: museosans_900;
+                    color: #FECF07;
+                    margin-left: 10%;
                 }
     
                 .modelos__text1{
-                    font-size: 4vw;
-                    margin-left: 4vw;
+                    font-size: 2.5rem;
+                    line-height: 100%;
+                    margin-top: 15%;
+                    color: #F6F6F6;
+                    font-family: jersey_m54;
+                    margin-left: 10%;
                 }
                 .modelos__text2{
-                    font-size: 1.9vw;
-                    margin-left: 4vw;
+                    font-size: 1.1rem;
+                    color: #F6F6F6;
+                    font-family:  museosans-700italic;
+                    margin-left: 10%;
                 }
                 .modelos__text3{
-                    font-size: 2vw;
-                    margin-left: 4vw;
+                    font-size: 1.1rem;
+                    color: #F6F6F6;
+                    font-family: museosans_100;
+                    margin-top: 10%;
+                    margin-left: 10%;
                 }
             
             }
             .contenedor__carrousel{
-    
+                padding: 0%;
                 .contenedor__rayas{
                     
                     .img__rayas{
@@ -96,15 +112,12 @@
                 }
     
                 .carousel{
-                    margin-left: 7vw;
-                    margin-bottom: 5vh;
-                    width: 65%;
+                    margin: 0 5%;
+                    width: 60%;
+                    margin-bottom: 3rem;
+                    margin-left: 20%;
                 }
             }
-    
-    
-    
-        }
     }
 
     @media only screen and (min-width: 1024px){
@@ -155,30 +168,29 @@
     
         }
     }
+    @media only screen and (min-width: 1100px){
 
-    @media only screen and (min-width: 1200px){
         .container{
             .contenedor__modelos{
     
                 .modelos__titulo{
-                    font-size: 1.7rem;
+                    font-size: 1.4rem;
                     margin-top: 4rem;
-                    margin-left: 7rem;
-                    margin-bottom: 5rem;
+                    margin-left: 20%;
+                    
                 }
     
                 .modelos__text1{
                     font-size: 2.5rem;
-                    margin-left: 7rem;
+                    margin-left: 20%;
                 }
                 .modelos__text2{
                     font-size: 1.2rem;
-                    margin-left: 7rem;
+                    margin-left: 20%;
                 }
                 .modelos__text3{
-                    font-size: 1.2rem;
-                    margin-left: 7rem;
-                    margin-top: 3rem;
+                    font-size: 1.1rem;
+                    margin-left: 20%;
                 }
             
             }
@@ -194,7 +206,7 @@
                 }
     
                 .carousel{
-                    margin-left: 5rem;
+                    margin-left: 20%;
                     margin-bottom: 3rem;
                     width: 54%;
                 }
@@ -204,5 +216,56 @@
     
         }
     }
+    @media only screen and (min-width: 1200px){
+
+        .container{
+            .contenedor__modelos{
     
+                .modelos__titulo{
+                    font-size: 1.4rem;
+                    margin-top: 12%;
+                    margin-left: 20%;
+                    
+                }
+    
+                .modelos__text1{
+                    font-size: 3rem;
+                    margin-left: 20%;
+                }
+                .modelos__text2{
+                    font-size: 1.5rem;
+                    margin-left: 20%;
+                }
+                .modelos__text3{
+                    font-size: 1.5rem;
+                    margin-left: 20%;
+                }
+            
+            }
+            .contenedor__carrousel{
+    
+                .contenedor__rayas{
+                    
+                    .img__rayas{
+                        width: 60%;
+                        margin-right: 2rem;
+                    }
+                    
+                }
+    
+                .carousel{
+                    margin-left: 15%;
+                    margin-bottom: 3rem;
+                    width: 54%;
+                }
+            }
+    
+    
+    
+        }
+    }
+
+
+    
+}
 }
