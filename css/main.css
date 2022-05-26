@@ -633,7 +633,7 @@ body .cabecera {
       #proyectos .container .contenedor__img .proyecto__img {
         width: 30vw;
         position: absolute;
-        top: -5vh; }
+        top: -7vh; }
     #proyectos .container .contenedor__proyecto {
       display: flex;
       flex-direction: column;
