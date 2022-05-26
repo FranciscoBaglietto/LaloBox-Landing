@@ -3,7 +3,7 @@
 
     .container{
         overflow: hidden;
-        padding-bottom: 12vh;
+        
 
         .contenedor__img{
             position: relative;
@@ -46,7 +46,7 @@
         grid-template-columns: 1fr;
         grid-template-rows: 6;
         gap: 1%;
-        margin-bottom: 10px;
+        padding-bottom: 10vh;
         
         .imagenes__imagen{
             width: 100%;
