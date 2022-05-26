@@ -1379,11 +1379,11 @@ body .cabecera {
     color: #FECF07;
     font-family: museosans_900;
     font-size: 35px;
-    margin-top: 40px; }
+    margin-top: 60px; }
   #contacto .contacto__titulo--texto {
     font-family: museosans_900;
     font-size: 22px;
-    margin-top: 50px;
+    margin-top: 25px;
     color: #F6F6F6; }
   #contacto .contacto__consultas {
     gap: 15%;
