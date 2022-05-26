@@ -144,9 +144,9 @@ body .cabecera {
     display: flex;
     flex-direction: column;
     margin-bottom: 4%;
-    margin-left: 5%; }
+    margin-left: 4%; }
     #nosotros .container .contenedor_nosotros .nosotros_titulo {
-      font-size: 1.2rem;
+      font-size: 1.3rem;
       font-weight: bolder;
       margin-top: 10%;
       border-bottom: 2px solid #FECF07;
@@ -156,44 +156,45 @@ body .cabecera {
       color: #FECF07; }
     #nosotros .container .contenedor_nosotros .nosotros__texto {
       margin-top: 15%;
-      font-size: .8rem;
+      font-size: .9rem;
       white-space: nowrap;
       font-family: museosans_100; }
   #nosotros .container .contenedor__caracteristicas {
     flex-direction: row;
-    gap: 4%; }
+    gap: 5%;
+    margin-left: -1%; }
     #nosotros .container .contenedor__caracteristicas .compromiso-fabrica .compromiso {
       align-items: center; }
       #nosotros .container .contenedor__caracteristicas .compromiso-fabrica .compromiso .compromiso__img {
-        width: 2.3rem;
-        height: 2.3rem; }
+        width: 2.5rem;
+        height: 2.5rem; }
       #nosotros .container .contenedor__caracteristicas .compromiso-fabrica .compromiso .compromiso__text {
-        font-size: .8rem;
+        font-size: .9rem;
         margin-top: 1rem;
         font-size: museosans-500;
         font-weight: 600; }
     #nosotros .container .contenedor__caracteristicas .compromiso-fabrica .fabrica .fabrica__img {
-      width: 2.3rem;
-      height: 2.3rem; }
+      width: 2.5rem;
+      height: 2.5rem; }
     #nosotros .container .contenedor__caracteristicas .compromiso-fabrica .fabrica .fabrica__text {
-      font-size: .8rem;
+      font-size: .9rem;
       margin-top: .6rem;
       font-size: museosans-500;
       font-weight: 600; }
     #nosotros .container .contenedor__caracteristicas .calidad-entrega .calidad__img {
-      width: 2.3rem;
-      height: 2.3rem;
+      width: 2.5rem;
+      height: 2.5rem;
       margin-top: .5rem; }
     #nosotros .container .contenedor__caracteristicas .calidad-entrega .calidad__text {
-      font-size: .8rem;
+      font-size: .9rem;
       margin-top: 1rem;
       font-size: museosans-500;
       font-weight: 600; }
     #nosotros .container .contenedor__caracteristicas .entrega .entrega__img {
-      width: 2.3rem;
-      height: 2.3rem; }
+      width: 2.5rem;
+      height: 2.5rem; }
     #nosotros .container .contenedor__caracteristicas .entrega .entrega__text {
-      font-size: .8rem;
+      font-size: .9rem;
       margin-top: .5rem;
       font-size: museosans-500;
       font-weight: 600; }
