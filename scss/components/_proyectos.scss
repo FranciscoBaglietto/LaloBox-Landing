@@ -59,6 +59,15 @@
     @media only screen and (min-width: 768px){
         .container{
             padding-bottom: 20vh;
+            .contenedor__img{
+                
+                
+                .proyecto__img{
+                    width: 30vw;
+                    position: absolute;
+                    top: -20vh;
+                }
+            }
         }
     }
 
