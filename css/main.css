@@ -719,7 +719,8 @@ body .cabecera {
         font-size: museosans-500; }
   @media only screen and (min-width: 768px) {
     #beneficios .container .contenedor__imagen .beneficio__img {
-      width: 105%; }
+      width: 105%;
+      margin-bottom: -3px; }
     #beneficios .container .beneficio__contenedor {
       margin-left: 0; }
       #beneficios .container .beneficio__contenedor .contenedor__textos .beneficio__titulo {
