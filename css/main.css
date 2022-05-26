@@ -619,210 +619,307 @@ body .cabecera {
 #viviendas {
   background-color: #F6F6F6; }
   #viviendas .container .contenedor__viviendas .viviendas__titulo {
-    font-size: 6vw;
+    font-size: 1.3rem;
     font-weight: bolder;
-    margin-top: 5vh;
-    margin-left: 3vw;
+    margin-top: 10%;
     border-bottom: 2px solid #FECF07;
     border-radius: 1px;
     width: fit-content;
     font-family: museosans_900;
-    color: #FECF07; }
+    color: #FECF07;
+    margin-left: 5%; }
   #viviendas .container .contenedor__viviendas .vivienda__text1 {
-    font-size: 8.5vw;
-    margin-top: 8vh;
-    margin-bottom: 0vh;
+    font-size: 2rem;
+    line-height: 100%;
+    margin-top: 15%;
     color: black;
     font-family: jersey_m54;
-    margin-left: 3vw; }
+    margin-left: 5%;
+    margin-bottom: 1%; }
   #viviendas .container .contenedor__viviendas .vivienda__text2 {
-    font-size: 7vw;
+    font-size: 1.5rem;
     color: black;
-    margin-left: 3vw;
-    font-family: museosans-700italic; }
+    font-family: museosans-700italic;
+    margin-left: 5%; }
   #viviendas .container .contenedor__viviendas .vivienda__text3 {
-    font-size: 4.3vw;
+    font-size: 1rem;
     color: black;
-    margin-left: 3vw;
     font-family: museosans_100;
-    margin-top: 5vh; }
+    margin-top: 10%;
+    margin-left: 5%; }
   #viviendas .container .contenedor__metros .img__tick {
     width: 3rem;
-    height: 3rem; }
+    height: 3rem;
+    margin-left: 1%; }
   #viviendas .container .contenedor__metros .metros__text {
-    font-size: 4vw;
-    margin-top: 2vh;
+    font-size: 1rem;
+    margin-top: .7rem;
     font-size: museosans-500;
     font-weight: bold; }
   #viviendas .container .contenedor__equipado .img__equipado {
     width: 3rem;
-    height: 3rem; }
+    height: 3rem;
+    margin-left: 1%; }
   #viviendas .container .contenedor__equipado .equipado__text {
-    font-size: 4vw;
-    margin-top: 2vh;
+    font-size: 1rem;
+    margin-top: .7rem;
     font-size: museosans-500;
     font-weight: bold; }
   #viviendas .container .contenedor__financiado {
-    margin-bottom: 3vh; }
+    margin-bottom: 10%; }
     #viviendas .container .contenedor__financiado .img__financiado {
       width: 3rem;
-      height: 3rem; }
+      height: 3rem;
+      margin-left: 1%; }
     #viviendas .container .contenedor__financiado .financiado__text {
-      font-size: 4vw;
-      margin-top: 2vh;
+      font-size: 1rem;
+      margin-top: .7rem;
       font-size: museosans-500;
       font-weight: bold; }
   #viviendas .container .contenedor__imagen {
     padding: 0; }
     #viviendas .container .contenedor__imagen .viviendas__imagen {
       width: 106%;
-      margin: 0vh 0vw; }
+      height: auto; }
   @media only screen and (min-width: 768px) {
-    #viviendas {
-      overflow: hidden; }
-      #viviendas .container .contenedor__viviendas {
-        margin-bottom: -2vh; }
-        #viviendas .container .contenedor__viviendas .viviendas__titulo {
-          font-size: 2.5vw;
-          margin-left: 4vw; }
-        #viviendas .container .contenedor__viviendas .vivienda__text1 {
-          font-size: 4vw;
-          margin-left: 4vw;
-          margin-top: 5vh; }
-        #viviendas .container .contenedor__viviendas .vivienda__text2 {
-          font-size: 3vw;
-          margin-left: 4vw; }
-        #viviendas .container .contenedor__viviendas .vivienda__text3 {
-          font-size: 2vw;
-          margin-left: 4vw;
-          margin-top: 2vh;
-          margin-bottom: 0px; }
-      #viviendas .container .contenedor__metros {
-        margin-bottom: -2vh; }
-        #viviendas .container .contenedor__metros .img__tick {
-          width: 3rem;
-          height: 3rem;
-          margin-left: 3vw; }
-        #viviendas .container .contenedor__metros .metros__text {
-          font-size: 1.8vw; }
-      #viviendas .container .contenedor__equipado {
-        margin-bottom: -2vh; }
-        #viviendas .container .contenedor__equipado .img__equipado {
-          width: 3rem;
-          height: 3rem;
-          margin-left: 3vw; }
-        #viviendas .container .contenedor__equipado .equipado__text {
-          font-size: 1.8vw; }
-      #viviendas .container .contenedor__financiado {
-        margin-bottom: 3vh; }
-        #viviendas .container .contenedor__financiado .img__financiado {
-          width: 3rem;
-          height: 3rem;
-          margin-left: 3vw; }
-        #viviendas .container .contenedor__financiado .financiado__text {
-          font-size: 1.8vw; }
+    #viviendas .container .contenedor__viviendas .viviendas__titulo {
+      font-size: 1.3rem;
+      font-weight: bolder;
+      margin-top: 10%;
+      border-bottom: 2px solid #FECF07;
+      border-radius: 1px;
+      width: fit-content;
+      font-family: museosans_900;
+      color: #FECF07;
+      margin-left: 5%; }
+    #viviendas .container .contenedor__viviendas .vivienda__text1 {
+      font-size: 2rem;
+      line-height: 100%;
+      margin-top: 15%;
+      color: black;
+      font-family: jersey_m54;
+      margin-left: 5%;
+      margin-bottom: 1%; }
+    #viviendas .container .contenedor__viviendas .vivienda__text2 {
+      font-size: 1.5rem;
+      color: black;
+      font-family: museosans-700italic;
+      margin-left: 5%; }
+    #viviendas .container .contenedor__viviendas .vivienda__text3 {
+      font-size: 1rem;
+      color: black;
+      font-family: museosans_100;
+      margin-top: 10%;
+      margin-left: 5%; }
+    #viviendas .container .contenedor__metros {
+      margin-bottom: -1rem; }
+      #viviendas .container .contenedor__metros .img__tick {
+        width: 3rem;
+        height: 3rem;
+        margin-left: 1%; }
+      #viviendas .container .contenedor__metros .metros__text {
+        font-size: 1rem;
+        margin-top: .7rem;
+        font-size: museosans-500;
+        font-weight: bold; }
+    #viviendas .container .contenedor__equipado {
+      margin-bottom: -1rem; }
+      #viviendas .container .contenedor__equipado .img__equipado {
+        width: 3rem;
+        height: 3rem;
+        margin-left: 1%; }
+      #viviendas .container .contenedor__equipado .equipado__text {
+        font-size: 1rem;
+        margin-top: .7rem;
+        font-size: museosans-500;
+        font-weight: bold; }
+    #viviendas .container .contenedor__financiado {
+      margin-bottom: 0; }
+      #viviendas .container .contenedor__financiado .img__financiado {
+        width: 3rem;
+        height: 3rem;
+        margin-left: 1%; }
+      #viviendas .container .contenedor__financiado .financiado__text {
+        font-size: 1rem;
+        margin-top: .7rem;
+        font-size: museosans-500;
+        font-weight: bold; }
+    #viviendas .container .contenedor__imagen {
+      padding: 0; }
       #viviendas .container .contenedor__imagen .viviendas__imagen {
-        width: 127%;
-        margin: 0vh 0vw;
-        margin-top: -.5vh; } }
-  @media only screen and (min-width: 1024px) {
-    #viviendas .container .contenedor__viviendas {
-      margin-bottom: -2vh; }
-      #viviendas .container .contenedor__viviendas .viviendas__titulo {
-        font-size: 1.4rem;
-        margin-top: 4rem;
-        margin-left: 4rem; }
-      #viviendas .container .contenedor__viviendas .vivienda__text1 {
-        font-size: 2.5rem;
-        margin-left: 4rem; }
-      #viviendas .container .contenedor__viviendas .vivienda__text2 {
-        font-size: 1.7rem;
-        margin-left: 4rem; }
-      #viviendas .container .contenedor__viviendas .vivienda__text3 {
-        font-size: 1.1rem;
-        margin-left: 4rem;
-        margin-bottom: 1.5rem;
-        margin-top: 1.5rem; }
-    #viviendas .container .contenedor__metros {
-      margin-bottom: -1.5rem; }
-      #viviendas .container .contenedor__metros .img__tick {
-        width: 3.7rem;
-        height: 3.7rem;
-        margin-left: 3.2rem; }
-      #viviendas .container .contenedor__metros .metros__text {
-        font-size: 1rem;
-        margin-top: 1rem; }
-    #viviendas .container .contenedor__equipado {
-      margin-bottom: -1.5rem; }
-      #viviendas .container .contenedor__equipado .img__equipado {
-        width: 3.7rem;
-        height: 3.7rem;
-        margin-left: 3.2rem; }
-      #viviendas .container .contenedor__equipado .equipado__text {
-        font-size: 1rem;
-        margin-top: 1rem; }
-    #viviendas .container .contenedor__financiado {
-      margin-bottom: .8rem; }
-      #viviendas .container .contenedor__financiado .img__financiado {
-        width: 3.7rem;
-        height: 3.7rem;
-        margin-left: 3.2rem; }
-      #viviendas .container .contenedor__financiado .financiado__text {
-        font-size: 1rem;
-        margin-top: 1rem; }
+        width: 120.5%;
+        height: auto; } }
+
+@media only screen and (min-width: 768px) and (min-width: 1024px) {
+  #viviendas .container .contenedor__viviendas .viviendas__titulo {
+    font-size: 1.4rem;
+    margin-top: 4rem;
+    margin-left: 4rem; }
+  #viviendas .container .contenedor__viviendas .vivienda__text1 {
+    font-size: 2.5rem;
+    margin-left: 4rem;
+    margin-top: 10%; }
+  #viviendas .container .contenedor__viviendas .vivienda__text2 {
+    font-size: 1.8rem;
+    margin-left: 4rem; }
+  #viviendas .container .contenedor__viviendas .vivienda__text3 {
+    font-size: 1.1rem;
+    margin-left: 4rem; }
+  #viviendas .container .contenedor__metros {
+    margin-bottom: -1rem;
+    margin-left: 11%; }
+    #viviendas .container .contenedor__metros .img__tick {
+      width: 3rem;
+      height: 3rem;
+      margin-left: 1%; }
+    #viviendas .container .contenedor__metros .metros__text {
+      font-size: 1rem;
+      margin-top: .7rem;
+      font-size: museosans-500;
+      font-weight: bold; }
+  #viviendas .container .contenedor__equipado {
+    margin-bottom: -1rem;
+    margin-left: 11%; }
+    #viviendas .container .contenedor__equipado .img__equipado {
+      width: 3rem;
+      height: 3rem;
+      margin-left: 1%; }
+    #viviendas .container .contenedor__equipado .equipado__text {
+      font-size: 1rem;
+      margin-top: .7rem;
+      font-size: museosans-500;
+      font-weight: bold; }
+  #viviendas .container .contenedor__financiado {
+    margin-bottom: 0;
+    margin-left: 11%; }
+    #viviendas .container .contenedor__financiado .img__financiado {
+      width: 3rem;
+      height: 3rem;
+      margin-left: 1%; }
+    #viviendas .container .contenedor__financiado .financiado__text {
+      font-size: 1rem;
+      margin-top: .7rem;
+      font-size: museosans-500;
+      font-weight: bold; }
+  #viviendas .container .contenedor__imagen {
+    padding: 0; }
     #viviendas .container .contenedor__imagen .viviendas__imagen {
-      width: 100%;
-      margin-left: 6rem;
-      margin-top: -.5rem; } }
-  @media only screen and (min-width: 1200px) {
-    #viviendas .container .contenedor__viviendas {
-      margin-bottom: -2vh; }
-      #viviendas .container .contenedor__viviendas .viviendas__titulo {
-        font-size: 1.7rem;
-        margin-top: 4rem;
-        margin-left: 7rem;
-        margin-bottom: 5rem; }
-      #viviendas .container .contenedor__viviendas .vivienda__text1 {
-        font-size: 2.5rem;
-        margin-left: 7rem; }
-      #viviendas .container .contenedor__viviendas .vivienda__text2 {
-        font-size: 1.7rem;
-        margin-left: 7rem; }
-      #viviendas .container .contenedor__viviendas .vivienda__text3 {
-        font-size: 1.2rem;
-        margin-left: 7rem;
-        margin-top: 3rem; }
-    #viviendas .container .contenedor__metros {
-      margin-bottom: -1.5rem; }
-      #viviendas .container .contenedor__metros .img__tick {
-        width: 4rem;
-        height: 4rem;
-        margin-left: 6rem; }
-      #viviendas .container .contenedor__metros .metros__text {
-        font-size: 1.2rem;
-        margin-top: 1rem; }
-    #viviendas .container .contenedor__equipado {
-      margin-bottom: -1.5rem; }
-      #viviendas .container .contenedor__equipado .img__equipado {
-        width: 4rem;
-        height: 4rem;
-        margin-left: 6rem; }
-      #viviendas .container .contenedor__equipado .equipado__text {
-        font-size: 1.2rem;
-        margin-top: 1rem; }
-    #viviendas .container .contenedor__financiado {
-      margin-bottom: .8rem; }
-      #viviendas .container .contenedor__financiado .img__financiado {
-        width: 4rem;
-        height: 4rem;
-        margin-left: 6rem; }
-      #viviendas .container .contenedor__financiado .financiado__text {
-        font-size: 1.2rem;
-        margin-top: 1rem; }
+      margin-left: 19%;
+      height: auto;
+      width: 100%; } }
+
+@media only screen and (min-width: 768px) and (min-width: 1024px) and (min-width: 1100px) {
+  #viviendas .container .contenedor__viviendas .viviendas__titulo {
+    font-size: 1.4rem;
+    margin-top: 4rem;
+    margin-left: 4rem; }
+  #viviendas .container .contenedor__viviendas .vivienda__text1 {
+    font-size: 2.5rem;
+    margin-left: 4rem;
+    margin-top: 10%; }
+  #viviendas .container .contenedor__viviendas .vivienda__text2 {
+    font-size: 1.8rem;
+    margin-left: 4rem; }
+  #viviendas .container .contenedor__viviendas .vivienda__text3 {
+    font-size: 1.1rem;
+    margin-left: 4rem; }
+  #viviendas .container .contenedor__metros {
+    margin-bottom: -1rem;
+    margin-left: 11%; }
+    #viviendas .container .contenedor__metros .img__tick {
+      width: 3rem;
+      height: 3rem;
+      margin-left: 1%; }
+    #viviendas .container .contenedor__metros .metros__text {
+      font-size: 1rem;
+      margin-top: .7rem;
+      font-size: museosans-500;
+      font-weight: bold; }
+  #viviendas .container .contenedor__equipado {
+    margin-bottom: -1rem;
+    margin-left: 11%; }
+    #viviendas .container .contenedor__equipado .img__equipado {
+      width: 3rem;
+      height: 3rem;
+      margin-left: 1%; }
+    #viviendas .container .contenedor__equipado .equipado__text {
+      font-size: 1rem;
+      margin-top: .7rem;
+      font-size: museosans-500;
+      font-weight: bold; }
+  #viviendas .container .contenedor__financiado {
+    margin-bottom: 0;
+    margin-left: 11%; }
+    #viviendas .container .contenedor__financiado .img__financiado {
+      width: 3rem;
+      height: 3rem;
+      margin-left: 1%; }
+    #viviendas .container .contenedor__financiado .financiado__text {
+      font-size: 1rem;
+      margin-top: .7rem;
+      font-size: museosans-500;
+      font-weight: bold; }
+  #viviendas .container .contenedor__imagen {
+    padding: 0; }
     #viviendas .container .contenedor__imagen .viviendas__imagen {
-      width: 100%;
-      margin-left: 9rem;
-      margin-top: -.5rem; } }
+      margin-left: 20%;
+      height: auto; } }
+
+@media only screen and (min-width: 768px) and (min-width: 1024px) and (min-width: 1100px) and (min-width: 1200px) {
+  #viviendas .container .contenedor__viviendas .viviendas__titulo {
+    font-size: 1.4rem;
+    margin-top: 12%;
+    margin-left: 20%; }
+  #viviendas .container .contenedor__viviendas .vivienda__text1 {
+    font-size: 2.7rem;
+    margin-left: 20%; }
+  #viviendas .container .contenedor__viviendas .vivienda__text2 {
+    font-size: 1.7rem;
+    margin-left: 20%; }
+  #viviendas .container .contenedor__viviendas .vivienda__text3 {
+    font-size: 1.3rem;
+    margin-left: 20%; }
+  #viviendas .container .contenedor__metros {
+    margin-bottom: -1rem;
+    margin-left: 16%; }
+    #viviendas .container .contenedor__metros .img__tick {
+      width: 3.5rem;
+      height: 3.5rem;
+      margin-left: 1%; }
+    #viviendas .container .contenedor__metros .metros__text {
+      font-size: 1.1rem;
+      margin-top: 1rem;
+      font-size: museosans-500;
+      font-weight: bold; }
+  #viviendas .container .contenedor__equipado {
+    margin-bottom: -1rem;
+    margin-left: 16%; }
+    #viviendas .container .contenedor__equipado .img__equipado {
+      width: 3.5rem;
+      height: 3.5rem; }
+    #viviendas .container .contenedor__equipado .equipado__text {
+      font-size: 1.1rem;
+      margin-top: 1rem;
+      font-size: museosans-500;
+      font-weight: bold; }
+  #viviendas .container .contenedor__financiado {
+    margin-bottom: 0;
+    margin-left: 16%; }
+    #viviendas .container .contenedor__financiado .img__financiado {
+      width: 3.5rem;
+      height: 3.5rem;
+      margin-left: 1%; }
+    #viviendas .container .contenedor__financiado .financiado__text {
+      font-size: 1.1rem;
+      margin-top: 1rem;
+      font-size: museosans-500;
+      font-weight: bold; }
+  #viviendas .container .contenedor__imagen {
+    padding: 0; }
+    #viviendas .container .contenedor__imagen .viviendas__imagen {
+      margin-left: 15%;
+      height: auto;
+      width: 100%; } }
 
 #proyectos {
   background-color: black; }
