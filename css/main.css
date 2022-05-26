@@ -139,7 +139,7 @@ body .cabecera {
   #nosotros .container .nosotros__imagen {
     width: 100%;
     margin: 0 3vw;
-    margin-top: -.2vh; }
+    margin-top: -.25vh; }
   #nosotros .container .contenedor_nosotros {
     display: flex;
     flex-direction: column; }
