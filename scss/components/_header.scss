@@ -28,7 +28,13 @@ body{
                         .nav-link{
                             color: white;
                             font-family: museosans-300;
+                            transition: transform 1s;
+
+                            &:hover{
+                                transform: scale(1.1);
+                            }
                         }
+
 
                     }
 

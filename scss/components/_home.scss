@@ -39,12 +39,15 @@
             margin-top: 25vh;
             font-family: jersey_m54;
         }
+        
+
         .home__text2{
             color: #F6F6F6;
             font-size: 5.5vw;
             text-shadow: 3px 3px 3px black;
             font-family: jersey_m54;
         }
+
         .home__boton{
             text-decoration: none;
             color: white;
@@ -55,6 +58,11 @@
             margin-top: 1vh;
             font-weight: bolder;
             font-size: 3vw;
+            transition: transform 1s;
+
+            &:hover{
+                transform: scale(1.1);
+            }
         }
 
 
@@ -70,17 +78,23 @@
 
         }
         .container{
-    
+
             .home__text1{
                 font-size: 3vw;
                 text-shadow: 3px 3px 3px black;
                 margin-top: 28vh;
                 margin-bottom: .5vh;
+                
             }
+            
             .home__text2{
-                font-size: 4vw;
-                text-shadow: 3px 3px 3px black;
+              font-size: 4vw;
+              text-shadow: 3px 3px 3px black;
             }
+
+ 
+            
+
             .home__boton{
                 font-size: 1.5vw;
                 padding: 0.1vh 1vw;

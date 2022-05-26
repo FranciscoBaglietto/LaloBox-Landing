@@ -44,7 +44,10 @@ body .cabecera {
     margin-left: .5rem; }
     body .cabecera .container-fluid .contenedor__navbar .navbar-nav .nav-item .nav-link {
       color: white;
-      font-family: museosans-300; }
+      font-family: museosans-300;
+      transition: transform 1s; }
+      body .cabecera .container-fluid .contenedor__navbar .navbar-nav .nav-item .nav-link:hover {
+        transform: scale(1.1); }
 
 @media only screen and (min-width: 1200px) {
   body .cabecera .navbar .container-fluid {
@@ -95,7 +98,10 @@ body .cabecera {
       border-radius: 3px;
       margin-top: 1vh;
       font-weight: bolder;
-      font-size: 3vw; }
+      font-size: 3vw;
+      transition: transform 1s; }
+      #home .container .home__boton:hover {
+        transform: scale(1.1); }
   @media only screen and (min-width: 768px) {
     #home .home__sticker img {
       top: -3vh; }
