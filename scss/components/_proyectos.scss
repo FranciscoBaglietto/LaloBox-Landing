@@ -3,7 +3,7 @@
 
     .container{
         overflow: hidden;
-        padding-bottom: 40vh;
+        padding-bottom: 12vh;
 
         .contenedor__img{
             position: relative;
@@ -11,7 +11,7 @@
             .proyecto__img{
                 width: 30vw;
                 position: absolute;
-                top: -20vh;
+                top: -5vh;
             }
         }
 
@@ -41,5 +41,74 @@
         }
 
     } 
+    .imagenes{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 6;
+        gap: 1%;
+        margin-bottom: 10px;
+        
+        .imagenes__imagen{
+            width: 100%;
+            position: center center;
+            font-size: cover;
+        }
+
+    }
+
+    @media only screen and (min-width: 768px){
+        .container{
+            padding-bottom: 20vh;
+        }
+    }
+
+
+    @media only screen and (min-width: 1024px){
+        .container{
+            padding-bottom: 5vh;
+            .contenedor__img{
+                
+                
+                .proyecto__img{
+                    width: 30vw;
+                    position: absolute;
+                    top: -25vh;
+                }
+            }
+        }
+            
+            
+            .imagenes{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+                gap: 1%;
+                
+                
+                
+                .imagenes__imagen{
+                    width: 100%;
+                    position: center center;
+                    font-size: cover;
+                    margin-bottom: 10px;
+                }
+                
+            }
+        
+    }
+    @media only screen and (min-width: 1200px){
+        .container{
+            padding-bottom: 5vh;
+            .contenedor__img{
+                
+                
+                .proyecto__img{
+                    width: 30vw;
+                    position: absolute;
+                    top: -35vh;
+                }
+            }
+        }
+    }
 
 }
