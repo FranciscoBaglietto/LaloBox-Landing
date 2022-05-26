@@ -745,7 +745,7 @@ body .cabecera {
         margin-top: 2vh;
         font-size: museosans-500; }
       #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .garantia {
-        margin-top: 2.5vh; }
+        margin-top: 1vh; }
         #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .garantia .garantia__img {
           width: 3rem;
           height: 3rem; }
@@ -798,7 +798,7 @@ body .cabecera {
         #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .traslado .traslado__text {
           font-size: 1.5vw; }
         #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .garantia {
-          margin-top: 2.5vh; }
+          margin-top: 1vh; }
           #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .garantia .garantia__img {
             width: 2.5rem;
             height: 2.5rem;
@@ -942,7 +942,7 @@ body .cabecera {
             font-weight: bold;
             margin-top: 1.5rem; }
           #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .garantia {
-            margin-top: 2.5rem; }
+            margin-top: 1.5rem; }
             #beneficios .container .beneficio__contenedor .contenedor__beneficios .contenedor__traslado .garantia .garantia__img {
               width: 4rem;
               height: 4rem;
