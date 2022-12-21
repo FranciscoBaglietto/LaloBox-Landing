@@ -1,23 +1,27 @@
-#nosotros{
+#nosotros {
     background-color: #F6F6F6;
-    
-    .container{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .container {
         
-        .nosotros__imagen{
+        .nosotros__imagen {
             width: auto;
             margin: 0 5%;
             margin-top: -.5%;
-            
+
         }
-        
-        .contenedor_nosotros{
+
+        .contenedor_nosotros {
             display: flex;
             flex-direction: column;
             margin-bottom: 4%;
             margin-left: 5%;
-            
 
-            .nosotros_titulo{
+
+            .nosotros_titulo {
                 font-size: 1.3rem;
                 font-weight: bolder;
                 margin-top: 10%;
@@ -26,47 +30,51 @@
                 width: fit-content;
                 font-family: museosans_900;
                 color: #FECF07;
-                
+
             }
-            .nosotros__texto{
+
+            .nosotros__texto {
                 margin-top: 15%;
                 font-size: .9rem;
                 white-space: nowrap;
                 font-family: museosans_100;
-                
+
             }
 
         }
 
-        .contenedor__caracteristicas{
+        .contenedor__caracteristicas {
             flex-direction: row;
             gap: 5%;
             margin-left: -1%;
-            
-            .compromiso-fabrica{
-                
-                .compromiso{
+
+            .compromiso-fabrica {
+
+                .compromiso {
                     align-items: center;
 
-                    .compromiso__img{
+                    .compromiso__img {
                         width: 2.5rem;
                         height: 2.5rem;
                     }
-                    .compromiso__text{
+
+                    .compromiso__text {
                         font-size: .9rem;
                         margin-top: 1rem;
                         font-size: museosans-500;
                         font-weight: 600;
                     }
-                    
-                }
-                .fabrica{
 
-                    .fabrica__img{
+                }
+
+                .fabrica {
+
+                    .fabrica__img {
                         width: 2.5rem;
                         height: 2.5rem;
                     }
-                    .fabrica__text{
+
+                    .fabrica__text {
                         font-size: .9rem;
                         margin-top: .6rem;
                         font-size: museosans-500;
@@ -74,16 +82,18 @@
                     }
 
                 }
-                
+
             }
+
             .calidad-entrega {
 
-                .calidad__img{
+                .calidad__img {
                     width: 2.5rem;
                     height: 2.5rem;
                     margin-top: .5rem;
                 }
-                .calidad__text{
+
+                .calidad__text {
                     font-size: .9rem;
                     margin-top: 1rem;
                     font-size: museosans-500;
@@ -91,12 +101,14 @@
                 }
 
             }
-            .entrega{
-                .entrega__img{
+
+            .entrega {
+                .entrega__img {
                     width: 2.5rem;
                     height: 2.5rem;
                 }
-                .entrega__text{
+
+                .entrega__text {
                     font-size: .9rem;
                     margin-top: .5rem;
                     font-size: museosans-500;
@@ -104,7 +116,7 @@
                 }
 
             }
-            
+
 
 
 
@@ -114,28 +126,29 @@
 
 
     }
-    @media only screen and (min-width: 768px){
-        .container{
+
+    @media only screen and (min-width: 768px) {
+        .container {
             padding: 0%;
             margin-bottom: -1px;
 
-            .nosotros__imagen{
+            .nosotros__imagen {
                 width: auto;
                 height: 100%;
                 margin-top: -.5%;
                 padding-right: 5%;
                 padding-left: 5%;
-                
+
             }
-            
-            .contenedor_nosotros{
+
+            .contenedor_nosotros {
                 display: flex;
                 flex-direction: column;
                 margin-bottom: 0%;
                 margin: 0%;
-                
-    
-                .nosotros_titulo{
+
+
+                .nosotros_titulo {
                     font-size: 1.2rem;
                     font-weight: bolder;
                     margin-top: 10%;
@@ -145,339 +158,364 @@
                     font-family: museosans_900;
                     color: #FECF07;
                     margin-left: 5%;
-                    
+
                 }
-                .nosotros__texto{
+
+                .nosotros__texto {
                     margin-top: 15%;
                     font-size: .8rem;
                     white-space: nowrap;
                     font-family: museosans_100;
                     margin-left: 5%;
-                    
+
                 }
-    
+
             }
-    
-            .contenedor__caracteristicas{
+
+            .contenedor__caracteristicas {
                 flex-direction: row;
                 gap: 4%;
                 margin-left: 4%;
-                
-                .compromiso-fabrica{
-                    
-                    .compromiso{
+
+                .compromiso-fabrica {
+
+                    .compromiso {
                         align-items: center;
-    
-                        .compromiso__img{
+
+                        .compromiso__img {
                             width: 2.3rem;
                             height: 2.3rem;
                         }
-                        .compromiso__text{
+
+                        .compromiso__text {
                             font-size: .8rem;
                             margin-top: 1rem;
                             font-size: museosans-500;
                             font-weight: 600;
                         }
-                        
+
                     }
-                    .fabrica{
-    
-                        .fabrica__img{
+
+                    .fabrica {
+
+                        .fabrica__img {
                             width: 2.3rem;
                             height: 2.3rem;
                         }
-                        .fabrica__text{
+
+                        .fabrica__text {
                             font-size: .8rem;
                             margin-top: .6rem;
                             font-size: museosans-500;
                             font-weight: 600;
                         }
-    
+
                     }
-                    
+
                 }
+
                 .calidad-entrega {
-    
-                    .calidad__img{
+
+                    .calidad__img {
                         width: 2.3rem;
                         height: 2.3rem;
                         margin-top: .5rem;
                     }
-                    .calidad__text{
+
+                    .calidad__text {
                         font-size: .8rem;
                         margin-top: 1rem;
                         font-size: museosans-500;
                         font-weight: 600;
                     }
-    
+
                 }
-                .entrega{
-                    .entrega__img{
+
+                .entrega {
+                    .entrega__img {
                         width: 2.3rem;
                         height: 2.3rem;
                     }
-                    .entrega__text{
+
+                    .entrega__text {
                         font-size: .8rem;
                         margin-top: .5rem;
                         font-size: museosans-500;
                         font-weight: 600;
                     }
-    
-                }
-                
-            }
-        
-    }
 
-    @media only screen and (min-width: 1024px){
-        margin-bottom: -2px;
-
-        .container{
-            
-
-            .nosotros__imagen{
-                padding-left: 10%;
-                
-            }
-            
-            .contenedor_nosotros{
-                display: flex;
-                flex-direction: column;
-                margin-bottom: 0%;
-                margin: 0%;
-                
-    
-                .nosotros_titulo{
-                    font-size: 1.3rem;
-                    font-weight: bolder;
-                    margin-top: 15%;
-                    border-bottom: 2px solid #FECF07;
-                    border-radius: 1px;
-                    width: fit-content;
-                    font-family: museosans_900;
-                    color: #FECF07;
-                    margin-left: 10%;
-                    
                 }
-                .nosotros__texto{
-                    margin-top: 15%;
-                    font-size: .9rem;
-                    white-space: nowrap;
-                    font-family: museosans_100;
-                    margin-left: 10%;
-                    
-                }
-    
+
             }
-    
-            .contenedor__caracteristicas{
-                flex-direction: row;
-                gap: 4%;
-                margin-left: 9%;
-                
-                .compromiso-fabrica{
-                    
-                    .compromiso{
-                        align-items: center;
-    
-                        .compromiso__img{
+
+        }
+
+        @media only screen and (min-width: 1024px) {
+            margin-bottom: -2px;
+
+            .container {
+
+
+                .nosotros__imagen {
+                    padding-left: 10%;
+
+                }
+
+                .contenedor_nosotros {
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 0%;
+                    margin: 0%;
+
+
+                    .nosotros_titulo {
+                        font-size: 1.3rem;
+                        font-weight: bolder;
+                        margin-top: 15%;
+                        border-bottom: 2px solid #FECF07;
+                        border-radius: 1px;
+                        width: fit-content;
+                        font-family: museosans_900;
+                        color: #FECF07;
+                        margin-left: 10%;
+
+                    }
+
+                    .nosotros__texto {
+                        margin-top: 15%;
+                        font-size: .9rem;
+                        white-space: nowrap;
+                        font-family: museosans_100;
+                        margin-left: 10%;
+
+                    }
+
+                }
+
+                .contenedor__caracteristicas {
+                    flex-direction: row;
+                    gap: 4%;
+                    margin-left: 9%;
+
+                    .compromiso-fabrica {
+
+                        .compromiso {
+                            align-items: center;
+
+                            .compromiso__img {
+                                width: 2.5rem;
+                                height: 2.5rem;
+                            }
+
+                            .compromiso__text {
+                                font-size: .9rem;
+                                margin-top: 1rem;
+                                font-size: museosans-500;
+                                font-weight: 600;
+                            }
+
+                        }
+
+                        .fabrica {
+
+                            .fabrica__img {
+                                width: 2.5rem;
+                                height: 2.5rem;
+                            }
+
+                            .fabrica__text {
+                                font-size: .9rem;
+                                margin-top: .6rem;
+                                font-size: museosans-500;
+                                font-weight: 600;
+                            }
+
+                        }
+
+                    }
+
+                    .calidad-entrega {
+
+                        .calidad__img {
                             width: 2.5rem;
                             height: 2.5rem;
+                            margin-top: .5rem;
                         }
-                        .compromiso__text{
+
+                        .calidad__text {
                             font-size: .9rem;
                             margin-top: 1rem;
                             font-size: museosans-500;
                             font-weight: 600;
                         }
-                        
+
                     }
-                    .fabrica{
-    
-                        .fabrica__img{
+
+                    .entrega {
+                        .entrega__img {
                             width: 2.5rem;
                             height: 2.5rem;
                         }
-                        .fabrica__text{
+
+                        .entrega__text {
                             font-size: .9rem;
-                            margin-top: .6rem;
+                            margin-top: .5rem;
                             font-size: museosans-500;
                             font-weight: 600;
                         }
-    
+
                     }
-                    
+
                 }
-                .calidad-entrega {
-    
-                    .calidad__img{
-                        width: 2.5rem;
-                        height: 2.5rem;
-                        margin-top: .5rem;
-                    }
-                    .calidad__text{
-                        font-size: .9rem;
-                        margin-top: 1rem;
-                        font-size: museosans-500;
-                        font-weight: 600;
-                    }
-    
-                }
-                .entrega{
-                    .entrega__img{
-                        width: 2.5rem;
-                        height: 2.5rem;
-                    }
-                    .entrega__text{
-                        font-size: .9rem;
-                        margin-top: .5rem;
-                        font-size: museosans-500;
-                        font-weight: 600;
-                    }
-    
-                }
-                
             }
-        }    
 
-        
-    }
 
-    @media only screen and (min-width: 1100px){
-        margin-bottom: -2px;
+        }
 
-        .container{
-            
+        @media only screen and (min-width: 1100px) {
+            margin-bottom: -2px;
 
-            .nosotros__imagen{
-                padding-left: 15%;
-                margin-top: -.4%;
-                
-            }
-            
-            .contenedor_nosotros{
-                display: flex;
-                flex-direction: column;
-                margin-bottom: 0%;
-                margin: 0%;
-                
-    
-                .nosotros_titulo{
-                    font-size: 1.4rem;
-                    font-weight: bolder;
-                    margin-top: 15%;
-                    border-bottom: 2px solid #FECF07;
-                    border-radius: 1px;
-                    width: fit-content;
-                    font-family: museosans_900;
-                    color: #FECF07;
-                    margin-left: 10%;
-                    
+            .container {
+
+
+                .nosotros__imagen {
+                    padding-left: 15%;
+                    margin-top: -.4%;
+
                 }
-                .nosotros__texto{
-                    margin-top: 10%;
-                    font-size: 1rem;
-                    white-space: nowrap;
-                    font-family: museosans_100;
-                    margin-left: 10%;
-                    
+
+                .contenedor_nosotros {
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 0%;
+                    margin: 0%;
+
+
+                    .nosotros_titulo {
+                        font-size: 1.4rem;
+                        font-weight: bolder;
+                        margin-top: 15%;
+                        border-bottom: 2px solid #FECF07;
+                        border-radius: 1px;
+                        width: fit-content;
+                        font-family: museosans_900;
+                        color: #FECF07;
+                        margin-left: 10%;
+
+                    }
+
+                    .nosotros__texto {
+                        margin-top: 10%;
+                        font-size: 1rem;
+                        white-space: nowrap;
+                        font-family: museosans_100;
+                        margin-left: 10%;
+
+                    }
+
                 }
-    
-            }
-    
-            .contenedor__caracteristicas{
-                flex-direction: row;
-                gap: 4%;
-                margin-left: 9%;
-                
-                .compromiso-fabrica{
-                    
-                    .compromiso{
-                        align-items: center;
-    
-                        .compromiso__img{
+
+                .contenedor__caracteristicas {
+                    flex-direction: row;
+                    gap: 4%;
+                    margin-left: 9%;
+
+                    .compromiso-fabrica {
+
+                        .compromiso {
+                            align-items: center;
+
+                            .compromiso__img {
+                                width: 2.9rem;
+                                height: 2.9rem;
+                            }
+
+                            .compromiso__text {
+                                font-size: 1rem;
+                                margin-top: 1rem;
+                                font-size: museosans-500;
+                                font-weight: 600;
+                            }
+
+                        }
+
+                        .fabrica {
+
+                            .fabrica__img {
+                                width: 2.9rem;
+                                height: 2.9rem;
+                            }
+
+                            .fabrica__text {
+                                font-size: 1rem;
+                                margin-top: .9rem;
+                                font-size: museosans-500;
+                                font-weight: 600;
+                            }
+
+                        }
+
+                    }
+
+                    .calidad-entrega {
+
+                        .calidad__img {
                             width: 2.9rem;
                             height: 2.9rem;
+                            margin-top: .5rem;
                         }
-                        .compromiso__text{
+
+                        .calidad__text {
                             font-size: 1rem;
                             margin-top: 1rem;
                             font-size: museosans-500;
                             font-weight: 600;
                         }
-                        
+
                     }
-                    .fabrica{
-    
-                        .fabrica__img{
+
+                    .entrega {
+                        .entrega__img {
                             width: 2.9rem;
                             height: 2.9rem;
                         }
-                        .fabrica__text{
+
+                        .entrega__text {
                             font-size: 1rem;
-                            margin-top: .9rem;
+                            margin-top: .5rem;
                             font-size: museosans-500;
                             font-weight: 600;
                         }
-    
+
                     }
-                    
+
                 }
-                .calidad-entrega {
-    
-                    .calidad__img{
-                        width: 2.9rem;
-                        height: 2.9rem;
-                        margin-top: .5rem;
-                    }
-                    .calidad__text{
-                        font-size: 1rem;
-                        margin-top: 1rem;
-                        font-size: museosans-500;
-                        font-weight: 600;
-                    }
-    
-                }
-                .entrega{
-                    .entrega__img{
-                        width: 2.9rem;
-                        height: 2.9rem;
-                    }
-                    .entrega__text{
-                        font-size: 1rem;
-                        margin-top: .5rem;
-                        font-size: museosans-500;
-                        font-weight: 600;
-                    }
-    
-                }
-                
             }
-        }   
+
+        }
 
     }
 
-    }
-    @media only screen and (min-width: 1200px){
+    @media only screen and (min-width: 1200px) {
         margin-bottom: -3px;
 
-        .container{
-            
+        .container {
 
-            .nosotros__imagen{
+
+            .nosotros__imagen {
                 padding-left: 15%;
                 margin-top: -.4%;
-                
+
             }
-            
-            .contenedor_nosotros{
+
+            .contenedor_nosotros {
                 display: flex;
                 flex-direction: column;
                 margin-bottom: 0%;
                 margin: 0%;
-                
-    
-                .nosotros_titulo{
+
+
+                .nosotros_titulo {
                     font-size: 1.4rem;
                     font-weight: bolder;
                     margin-top: 15%;
@@ -487,89 +525,96 @@
                     font-family: museosans_900;
                     color: #FECF07;
                     margin-left: 10%;
-                    
+
                 }
-                .nosotros__texto{
+
+                .nosotros__texto {
                     margin-top: 15%;
                     font-size: 1.1rem;
                     white-space: nowrap;
                     font-family: museosans_100;
                     margin-left: 10%;
-                    
+
                 }
-    
+
             }
-    
-            .contenedor__caracteristicas{
+
+            .contenedor__caracteristicas {
                 flex-direction: row;
                 gap: 4%;
                 margin-left: 9%;
-                
-                .compromiso-fabrica{
-                    
-                    .compromiso{
+
+                .compromiso-fabrica {
+
+                    .compromiso {
                         align-items: center;
-    
-                        .compromiso__img{
+
+                        .compromiso__img {
                             width: 2.9rem;
                             height: 2.9rem;
                         }
-                        .compromiso__text{
+
+                        .compromiso__text {
                             font-size: 1rem;
                             margin-top: 1rem;
                             font-size: museosans-500;
                             font-weight: 600;
                         }
-                        
+
                     }
-                    .fabrica{
-    
-                        .fabrica__img{
+
+                    .fabrica {
+
+                        .fabrica__img {
                             width: 2.9rem;
                             height: 2.9rem;
                         }
-                        .fabrica__text{
+
+                        .fabrica__text {
                             font-size: 1rem;
                             margin-top: .9rem;
                             font-size: museosans-500;
                             font-weight: 600;
                         }
-    
+
                     }
-                    
+
                 }
+
                 .calidad-entrega {
-    
-                    .calidad__img{
+
+                    .calidad__img {
                         width: 2.9rem;
                         height: 2.9rem;
                         margin-top: .5rem;
                     }
-                    .calidad__text{
+
+                    .calidad__text {
                         font-size: 1rem;
                         margin-top: 1rem;
                         font-size: museosans-500;
                         font-weight: 600;
                     }
-    
+
                 }
-                .entrega{
-                    .entrega__img{
+
+                .entrega {
+                    .entrega__img {
                         width: 2.9rem;
                         height: 2.9rem;
                     }
-                    .entrega__text{
+
+                    .entrega__text {
                         font-size: 1rem;
                         margin-top: .5rem;
                         font-size: museosans-500;
                         font-weight: 600;
                     }
-    
+
                 }
-                
+
             }
-        }   
+        }
 
     }
 }
-

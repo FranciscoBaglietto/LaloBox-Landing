@@ -1,6 +1,9 @@
 #modelos{
     background-color: black;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     .container{
         margin-right: 0px;

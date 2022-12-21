@@ -1,6 +1,10 @@
 #beneficios{
     background-color: #F6F6F6;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
     .container{
         
         .contenedor__imagen{

@@ -136,7 +136,11 @@ body .cabecera {
       margin-top: -10rem; } }
 
 #nosotros {
-  background-color: #F6F6F6; }
+  background-color: #F6F6F6;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
   #nosotros .container .nosotros__imagen {
     width: auto;
     margin: 0 5%;
@@ -471,7 +475,10 @@ body .cabecera {
 
 #modelos {
   background-color: black;
-  overflow: hidden; }
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
   #modelos .container {
     margin-right: 0px; }
     #modelos .container .contenedor__modelos {
@@ -617,7 +624,10 @@ body .cabecera {
     width: 54%; } }
 
 #viviendas {
-  background-color: #F6F6F6; }
+  background-color: #F6F6F6;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
   #viviendas .container .contenedor__viviendas .viviendas__titulo {
     font-size: 1.3rem;
     font-weight: bolder;
@@ -927,10 +937,6 @@ body .cabecera {
     overflow: hidden; }
     #proyectos .container .contenedor__img {
       position: relative; }
-      #proyectos .container .contenedor__img .proyecto__img {
-        width: 30vw;
-        position: absolute;
-        top: -7vh; }
     #proyectos .container .contenedor__proyecto {
       display: flex;
       flex-direction: column;
@@ -994,7 +1000,10 @@ body .cabecera {
 
 #beneficios {
   background-color: #F6F6F6;
-  overflow: hidden; }
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
   #beneficios .container .contenedor__imagen .beneficio__img {
     width: 100%;
     margin: 0vh 3vw;
